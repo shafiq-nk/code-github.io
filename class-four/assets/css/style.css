@@ -1,0 +1,85 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+a:hover { text-decoration: none }
+
+.section-padding {
+    padding: 80px 0;
+}
+.section-title {
+    margin-bottom: 60px;
+    text-align: center;
+}
+.section-title h2 {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    position: relative;
+    z-index: 1;
+}
+.section-title h2::before {
+    background: #fed670 none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 3px;
+    left: 50%;
+    margin-left: -30px;
+    position: absolute;
+    width: 60px;
+}
+.section-title h2::after {
+    background: #fb8470 none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 3px;
+    left: 50%;
+    margin-left: -10px;
+    position: absolute;
+    width: 20px;
+}
+.single-service-icon {
+    color: #333;
+    display: block;
+    margin-bottom: 30px;
+    min-height: 240px;
+    text-align: center;
+}
+.single-service-icon h3 {
+    font-size: 22px;
+    margin: 20px 0;
+}
+.service-icon-container {
+    color: #fedb77;
+    display: table;
+    font-size: 50px;
+    height: 80px;
+    width: 100%;
+}
+.service-icon-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+}
