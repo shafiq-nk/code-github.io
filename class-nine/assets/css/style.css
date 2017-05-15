@@ -1,0 +1,113 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    color: #7c7c7c;
+}
+a:hover { text-decoration: none }
+
+.section-padding {
+    padding: 80px 0;
+}
+.section-borders span {
+    background: #699c03 none repeat scroll 0 0;
+    border-radius: 2px;
+    display: inline-block;
+    height: 5px;
+    width: 50px;
+}
+.section-borders span.black-border {
+    background: #333 none repeat scroll 0 0;
+    margin: 0 5px;
+    width: 30px;
+}
+.section-title {
+    margin-bottom: 50px;
+    text-align: center;
+}
+.section-title h2 {
+    font-size: 32px;
+}
+.client-testimonial-carousel .owl-dots {
+    text-align: center;
+}
+.client-testimonial-carousel .owl-dots div {
+    background-color: #699c03;
+    border-radius: 2px;
+    display: inline-block;
+    height: 3px;
+    margin: 45px 3px 3px;
+    transition: all 0.3s ease 0s;
+    width: 20px;
+}
+.client-testimonial-carousel .owl-dots div.active {
+    background-color: #333;
+    width: 30px;
+}
+.single-testimonial-item:before{
+    font-family: fontAwesome;
+    content: "\f10e";
+    color: #679E02;
+    position: absolute;
+    font-size: 25px;
+    line-height: 30px;
+    margin-top: -15px;
+    left: 20px;
+    top: 50%;
+}
+.single-testimonial-item:after{
+    position: absolute;
+    content: "";
+    left: 60px;
+    top: 15%;
+    background: #EFEFED;
+    width: 1px;
+    height: 70%;
+}
+.single-testimonial-item {
+    box-shadow: 0 0 4px #e1e1d8;
+    font-style: italic;
+    margin: 4px;
+    padding: 20px;
+    position: relative;
+    padding-left: 80px;
+}
+
+.single-testimonial-item h3 {
+    color: #333;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.single-testimonial-item h3 span {
+    color: #7c7c7c;
+    display: block;
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 5px;
+}
