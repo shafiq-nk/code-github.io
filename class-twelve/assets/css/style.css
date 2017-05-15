@@ -1,0 +1,224 @@
+/* Base CSS */
+@font-face {
+  font-family: 'CODEBold';
+  src: url('../fonts/CODEBold.eot');
+  src: url('../fonts/CODEBold.eot') format('embedded-opentype'), url('../fonts/CODEBold.woff2') format('woff2'), url('../fonts/CODEBold.woff') format('woff'), url('../fonts/CODEBold.ttf') format('truetype'), url('../fonts/CODEBold.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'CODELight';
+  src: url('../fonts/CODELight.eot');
+  src: url('../fonts/CODELight.eot') format('embedded-opentype'), url('../fonts/CODELight.woff2') format('woff2'), url('../fonts/CODELight.woff') format('woff'), url('../fonts/CODELight.ttf') format('truetype'), url('../fonts/CODELight.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html, body {
+    height: 100%;
+}
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: normal;
+    font-family: 'CODELight', sans-serif;
+}
+body {
+    font-family: 'Karla', sans-serif;
+
+}
+a:hover { text-decoration: none }
+
+.homepage-slider-wrap {
+    background-image: url(../images/hero.jpg);
+}
+.product-bg-1 {
+    background-image: url(../images/model-1.png);
+}
+.product-bg-2 {
+    background-image: url(../images/model-2.png);
+}
+.product-bg-3 {
+    background-image: url(../images/model-3.png);
+}
+.product-bg-4 {
+    background-image: url(../images/model-4.png);
+}
+.product-bg-5 {
+    background-image: url(../images/model-5.png);
+}
+.product-bg-6 {
+    background-image: url(../images/model-6.png);
+}
+.product-bg-7 {
+    background-image: url(../images/model-7.png);
+}
+.product-bg-8 {
+    background-image: url(../images/model-8.png);
+}
+.product-bg-9 {
+    background-image: url(../images/model-9.png);
+}
+.product-bg-10 {
+    background-image: url(../images/model-10.png);
+}
+
+.header-top-area a {
+    color: #5b3f61;
+    display: inline-block;
+    padding: 15px;
+}
+.header-top-area {
+    font-size: 13px;
+    font-weight: bold;
+    left: 0;
+    position: absolute;
+    text-transform: uppercase;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+}
+.header-left ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.header-left ul li {
+    display: inline-block;
+}
+a.menu-trigger {
+    display: none;
+}
+.header-right {
+    text-align: right;
+}
+.header-right i.fa.fa-search {
+    padding-left: 10px;
+}
+.homepage-slider-wrap {
+    background-color: #f0dcd3;
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+}
+.single-slide-item {
+    position: relative;
+}
+.single-slide-item img {
+    bottom: 0;
+    left: 50%;
+    margin-left: -350px;
+    position: absolute;
+    width: 700px;
+}
+.homepage-slider-wrap div {
+    height: 100%;
+}
+.slider-text-table {
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    z-index: 9;
+}
+.slider-text-tablecell {
+    color: #d7437c;
+    display: table-cell;
+    font-family: codelight,sans-serif;
+    font-size: 120px;
+    line-height: 95px;
+    padding-left: 15%;
+    vertical-align: middle;
+}
+.slider-text-tablecell strong {
+    font-family: codebold;
+    font-weight: normal;
+}
+.slide-alt-color {
+    color: #6aabc8;
+}
+
+
+.big-menu {
+    list-style: outside none none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+.big-menu li {
+    background-color: #ecf2e7;
+    float: left;
+    font-family: codelight;
+    font-size: 50px;
+    transition: all 0.3s ease 0s;
+    width: 30%;
+}
+.big-menu li a {
+    color: #5b3f61;
+    display: block;
+    padding: 170px 30px 30px;
+    text-align: center;
+}
+.big-menu li:nth-child(2) a {
+    background-color: #f2e7e5;
+    color: #f16388;
+    font-family: codebold;
+}
+.big-menu li:nth-child(3) {
+    background-color: #f6f2e5;
+}
+.big-menu li:nth-child(4) a {
+    background-color: #ebf4f6;
+    text-align: left;
+}
+.big-menu li:nth-child(2),
+.big-menu li:nth-child(3) {
+    width: 20%;
+}
+.big-menu li:hover {
+    opacity: 0.7;
+}
+.big-menu li:nth-child(1) a {
+    text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
