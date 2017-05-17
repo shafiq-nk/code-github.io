@@ -1,0 +1,141 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 400;
+} 
+body {
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.714;
+    color: #626262;
+}
+a:hover { text-decoration: none }
+.blog-meta, blog-readmore-btn{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+}
+
+.mainmenu ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+.mainmenu ul li {
+    display: inline-block;
+    padding-left: 95px;
+}
+.mainmenu ul li a {
+    color: #515151;
+    display: block;
+    padding: 70px 0;
+}
+.logo {
+    padding: 70px 0;
+}
+.blog-featured-content img {
+    width: 100%;
+}
+.single-blog-item {
+    margin-bottom: 120px;
+}
+.single-blog-item h2 a{
+    color: #626262;
+}
+
+.blog-meta {
+    text-transform: uppercase;
+}
+.single-blog-item h2 {
+    margin: 20px 0 25px;
+}
+.blog-readmore-btn {
+    color: #ada698;
+    text-transform: uppercase;
+}
+.blog-content-box {
+    margin-bottom: 25px;
+}
+.blog-content-box p:last-child {
+    margin: 0;
+}
+.newletter-area {
+    background: #f0f0f0 none repeat scroll 0 0;
+    margin-bottom: 120px;
+    padding: 70px 0;
+}
+.newletter-area h2 {
+    margin-bottom: 50px;
+}
+.newsletter-form {
+    border-bottom: 1px solid #000000;
+    margin: 0 auto;
+    max-width: 360px;
+    position: relative;
+}
+.newsletter-form input {
+    background: #f0f0f0 none repeat scroll 0 0;
+    border: medium none;
+    padding: 10px;
+    width: 100%;
+}
+.newsletter-form buton {
+    height: 100%;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.load-more-btn {
+    border: 1px solid #626262;
+    color: #626262;
+    display: inline-block;
+    font-size: 20px;
+    padding: 11px 20px;
+    text-transform: uppercase;
+}
+.footer-area {
+    background: #f0f0f0 none repeat scroll 0 0;
+    padding: 35px 0;
+}
+.footer-area a {
+    color: #000;
+}
+.load-more-btn-wrapper {
+    margin-bottom: 60px;
+}
+.footer-area li {
+    display: inline-block;
+    padding-right: 60px;
+}
+.footer-area ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.footer-area .text-right a {
+    padding-left: 10px;
+}
+
