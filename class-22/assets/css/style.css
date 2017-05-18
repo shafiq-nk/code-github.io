@@ -1,0 +1,77 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-weight: 400;
+}
+a:hover { text-decoration: none }
+
+.section-title {
+    margin-bottom: 60px;
+    text-align: center;
+}
+.section-title h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.single-team-item img {
+    border: 1px solid #c8c4c5;
+}
+.team-social-link {
+    background: #569a39 none repeat scroll 0 0;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: -20px;
+    position: relative;
+    text-align: center;
+    z-index: 2;
+}
+.team-social-link a {
+    border: 1px solid;
+    border-radius: 3px;
+    color: #fff;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    margin: 6px 3px;
+    text-align: center;
+    width: 30px;
+}
+.section-padding {
+    padding: 50px 0;
+}
+.single-team-item h4 {
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+.single-team-item h4 span {
+    color: #569a39;
+    display: block;
+    font-size: 60%;
+    margin-top: 5px;
+}
