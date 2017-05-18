@@ -1,0 +1,86 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+.service-bg-1 {
+    background-image: url(../images/service-bg-1.jpg);
+}
+
+.section-padding {
+    padding: 70px 0;
+}
+.section-title {
+    margin-bottom: 60px;
+    text-align: center;
+}
+.section-title h2 {
+    text-transform: uppercase;
+}
+.service-box-bg {
+  height: 200px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.service-box-bg h2 {
+    background: #cb4b52 none repeat scroll 0 0;
+    bottom: -18px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    left: 8%;
+    margin: 0;
+    padding: 5px;
+    position: absolute;
+    text-align: center;
+    text-transform: capitalize;
+    width: 84%;
+}
+
+.service-content {
+    padding: 45px 30px;
+}
+.service-content {
+    text-align: center;
+}
+.service-content a {
+    color: #333;
+    display: inline-block;
+    font-weight: 600;
+    margin: 25px 0 0;
+    text-transform: capitalize;
+}
+.service-content > p {
+    color: #7f7f7f;
+}
+.single-service-box {
+    border: 1px solid #d3d3d3;
+}
