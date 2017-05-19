@@ -1,0 +1,128 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.footer-area {
+    background: #14adf3 none repeat scroll 0 0;
+    padding: 70px 0;
+}
+.footer-area, .footer-area a {
+    color: #fff;
+}
+.footer-widget h3 {
+    font-size: 22px;
+    margin-bottom: 35px;
+    text-transform: uppercase;
+}
+.social-links {
+    margin-top: 45px;
+}
+.social-links a {
+    display: inline-block;
+    font-size: 20px;
+    padding-right: 18px;
+}
+.footer-widget ul {
+    line-height: 25px;
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.contact-info {
+    margin-bottom: 20px;
+    padding-left: 40px;
+    position: relative;
+}
+.contact-info i.fa {
+    left: 0;
+    position: absolute;
+    top: 5px;
+}
+.footer-widget h4 {
+    font-size: 17px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.contact-form input[type="email"], .contact-form input[type="submit"] {
+    background: #fff none repeat scroll 0 0;
+    border: medium none;
+    color: #14adf3;
+    margin: 5px 0;
+    padding: 6px;
+}
+
+.contact-form input[type="submit"] {
+  font-weight: 700;
+  text-transform: uppercase;
+  width: 25%;
+}
+.contact-form input[type="email"] {
+  width: 73%;
+}
+.copyright-area {
+    padding: 15px;
+}
+.copyright-area, 
+.copyright-area a{
+    color: #757575;
+}
+
+.copyright-area ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.copyright-area ul li{
+    display: inline-block;
+}
+
+.copyright-area ul li:after{
+    content: "|";
+    padding-left: 10px;
+    padding-right: 5px;
+}
+.copyright-area ul li:last-child:after{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
