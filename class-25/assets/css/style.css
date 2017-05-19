@@ -1,0 +1,114 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    color: #333;
+    line-height: 1.9;
+    font-size: 15px;
+}
+a:hover { text-decoration: none }
+
+.section-title {
+    margin: 35px 0 55px;
+    text-align: center;
+}
+.single-feature-item {
+    margin-bottom: 30px;
+}
+.borderd-imd {
+  background: rgba(0, 0, 0, 0) url("../images/img.jpg") no-repeat scroll center center / cover ;
+  height: 120px;
+  position: relative;
+  width: 100%;
+    border: 1px solid #fff;
+}
+.big-featured-borderd-img {
+  background: rgba(0, 0, 0, 0) url("../images/img-1.jpg") no-repeat scroll center center / cover ;
+  height: 450px;
+  position: relative;
+  width: 95%;
+  margin-left: 5%;
+    border: 1px solid #fff;
+}
+
+.borderd-imd::after {
+    background: #6aaf08 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 5px;
+    position: absolute;
+    top: 5px;
+    width: 100%;
+    z-index: -1;
+}
+.single-feature-item h2 {
+    border-bottom: 1px dashed;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.big-featured-borderd-img::before {
+    background: #6aaf08 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 100%;
+    z-index: -1;
+}
+.big-featured-borderd-img::after {
+    background: #000 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
