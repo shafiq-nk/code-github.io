@@ -1,0 +1,164 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+
+.project-bg-1 {
+    background-image: url(../images/bg-7.jpg);
+}
+.project-bg-2 {
+    background-image: url(../images/bg-1.jpg);
+}
+.project-bg-3 {
+    background-image: url(../images/bg-5.jpg);
+}
+.project-bg-4 {
+    background-image: url(../images/bg-1.jpg);
+}
+.project-bg-5 {
+    background-image: url(../images/bg-5.jpg);
+}
+.project-bg-6 {
+    background-image: url(../images/bg-6.jpg);
+}
+.project-bg-7 {
+    background-image: url(../images/bg-9.jpg);
+}
+.project-bg-8 {
+    background-image: url(../images/bg-9.jpg);
+}
+.project-bg-9 {
+    background-image: url(../images/bg-9.jpg);
+}
+
+
+
+
+
+.section-padding {
+    padding: 70px 0;
+}
+.project-title {
+    list-style: outside none none;
+    margin: 0 0 50px;
+    padding: 0;
+}
+.project-title li {
+    color: #78787c;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 18px;
+    padding: 0 10px;
+    text-transform: capitalize;
+}
+.single-project-item a, .single-project-item span, .project-title li.active {
+    color: #00ddd6;
+}
+.single-project-item {
+    background-color: #ddd;
+    background-position: center center;
+    background-size: cover;
+    height: 300px;
+    margin-bottom: 15px;
+    position: relative;
+    z-index: 2;
+}
+.row.project-list .col-md-4 {
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+}
+.row.project-list {
+    margin-left: -7.5px;
+    margin-right: -7.5px;
+}
+
+.row.project-list .col-md-4:nth-child(2) .single-project-item,
+.row.project-list .col-md-4:nth-child(4) .single-project-item,
+.row.project-list .col-md-4:nth-child(6) .single-project-item {
+    height: 615px;
+}
+.project-hover {
+    height: 100%;
+    opacity: 0;
+    position: relative;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+.project-hover::after {
+    background: #000 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+.project-hover a {
+    font-size: 20px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+.project-hover h4 {
+    bottom: 10px;
+    color: #fff;
+    left: 10px;
+    position: absolute;
+}
+.project-hover h4 span {
+    display: block;
+    font-size: 80%;
+}
+.single-project-item:hover .project-hover {
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
