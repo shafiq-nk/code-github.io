@@ -1,0 +1,102 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.section-absolute-bg {
+    background-image: url(../images/bg-img.jpg);
+}
+.absolute-bg-2 {
+    background-image: url(../images/bg-img.jpg);
+}
+.section-padding {
+    background: #202932 none repeat scroll 0 0;
+    color: #bfbebc;
+    font-size: 13px;
+    line-height: 1.8;
+    position: relative;
+    z-index: 1;
+    padding: 68px 0;
+}
+.section-padding h2 {
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.borderd-btn {
+    border: 1px solid #fff;
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 15px;
+    padding: 5px 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.boxed-content {
+    padding-left: 40px;
+    position: relative;
+    margin: 0 70px;
+}
+.boxed-content::before {
+    background: #70737c none repeat scroll 0 0;
+    content: "";
+    height: 100px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 2px;
+}
+.section-absolute-bg {
+    background-color: #ddd;
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;   
+}
+.section-absolute-bg.absolute-bg-2 {
+    left: 0;
+    right: auto;
+}
+
+.section-absolute-bg::after {
+    background: #000 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
