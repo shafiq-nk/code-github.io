@@ -1,0 +1,83 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Cinzel:400,700,900');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Cinzel', serif;
+}
+a:hover { text-decoration: none }
+.section-padding {
+    padding: 80px 0;
+}
+.single-promo-box {
+    background-image: url(../images/img.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+    color: #fff;
+    display: block;
+    height: 280px;
+    transition: .3s;
+}
+
+.promo-bg-1 {
+    background-image: url(../images/img-1.jpg);
+}
+
+.promo-bg-2 {
+    background-image: url(../images/img-2.jpg);
+}
+
+
+.promo-text {
+    bottom: 0;
+    font-size: 20px;
+    left: 0;
+    padding: 25px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+.promo-text h2 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+.single-promo-box:hover {
+    box-shadow: 0 0 12px 2px #999;
+    color: #fff;
+    transform: scale(1.02);
+}
+
+
+
+
+
+
+
+
+
