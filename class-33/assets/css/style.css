@@ -1,0 +1,118 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.fullwidth-bg-area {
+    background-image: url(../images/bg-img.jpg);
+}
+
+
+.section-padding {
+    padding: 70px 0;
+}
+.fullwidth-bg-area {
+    margin: 70px 0;
+}
+.margin-minus {
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.9;
+    margin: -70px 0;
+    padding: 120px;
+}
+.dark-bg {
+    background: #2a2f42 none repeat scroll 0 0;
+}
+.borderd-btn {
+    border: 2px solid #cfa974;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 20px;
+}
+.margin-minus .borderd-btn {
+    margin-top: 40px;
+}
+.box-content > h2 {
+    font-size: 50px;
+    font-weight: 700;
+}
+.author-name {
+    font-size: 22px;
+    padding-left: 45px;
+    position: relative;
+}
+.author-name span {
+    font-size: 65%;
+    font-weight: 300;
+    opacity: 0.5;
+}
+.author-name::before {
+    background: #fff none repeat scroll 0 0;
+    content: "";
+    height: 2px;
+    left: 0;
+    margin-top: -2px;
+    position: absolute;
+    top: 50%;
+    width: 35px;
+}
+.box-content {
+    position: relative;
+}
+.box-content::before {
+    border-left: 1px solid #fff;
+    border-top: 1px solid #fff;
+    content: "";
+    height: 45px;
+    left: -26px;
+    position: absolute;
+    top: -25px;
+    width: 45px;
+}
+.box-content::after {
+    border-bottom: 1px solid #fff;
+    border-right: 1px solid #fff;
+    bottom: -25px;
+    content: "";
+    height: 45px;
+    position: absolute;
+    right: -25px;
+    width: 45px;
+}
+
+
+
+
+
+
+
+
+
