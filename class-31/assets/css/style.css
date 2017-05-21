@@ -1,0 +1,126 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.section-bg-1 {
+    background: url(../images/bg-1.jpg) no-repeat center center / cover;
+}
+.section-bg-2 {
+    background: url(../images/bg-2.jpg) no-repeat center center / cover;
+}
+
+
+html, body, .full-hight {
+    height: 100%;
+}
+body {
+    font-size: 15px;
+    line-height: 1.8;
+    max-height: 100%;
+}
+.section-table {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.section-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+}
+.section-padding {
+    padding: 80px 0;
+}
+.section-padding.full-hight {
+    padding: 0;
+}
+.overlay {
+    position: relative;
+    z-index: 1;
+    background-attachment: fixed;
+}
+.overlay::after, .single-service-item::after {
+    background: #000 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+.single-service-item {
+    color: #fff;
+    padding: 30px;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+}
+.single-service-item a {
+    color: #fff;
+}
+.single-service-item h2 {
+    font-size: 25px;
+}
+.single-service-item a.service-learn-more-btn {
+    border: 1px solid #95d4fd;
+    color: #95d4fd;
+    display: inline-block;
+    margin-top: 30px;
+    padding: 3px 10px;
+}
+.service-icon i {
+    color: #95d4fd;
+    font-size: 50px;
+}
+.video-play-box {
+    color: #fff;
+    text-align: center;
+}
+.video-play-btn {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 34%;
+    display: inline-block;
+    font-size: 30px;
+    height: 90px;
+    line-height: 90px;
+    margin-top: 25px;
+    width: 90px;
+}
+
+
+
+
+
+
+
+
+
