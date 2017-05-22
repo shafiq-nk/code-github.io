@@ -1,0 +1,178 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.fullwidth-promo-area {
+    padding: 40px 0;
+}
+body {
+    background: #f6f7fb none repeat scroll 0 0;
+}
+.promo-box-wrap {
+    margin-left: -15px;
+    overflow: hidden;
+}
+.single-promo-box {
+    color: #fff;
+    display: table;
+    float: left;
+    height: 280px;
+    width: 50%;
+    text-align: center;
+    background: #fff;
+}
+.promo-box-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+    padding-top: 45px;
+    transition: .3s;
+}
+.single-promo-box:hover .promo-box-tablecell {
+    padding-top: 0;
+}
+.single-promo-box:nth-child(2) {
+    background-color: #de9199;
+}
+.single-promo-box:nth-child(3) {
+    background-color: #78b5d1;
+}
+.single-promo-box:nth-child(1) h2 {
+    color: #434748;
+}
+.single-promo-box:nth-child(1) i {
+    color: #de9199;
+}
+
+i.promo-icon::before {
+    font-size: 60px;
+    margin-left: 0;
+}
+.single-promo-box h2::after {
+    background: #fff none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 50%;
+    margin-left: -20px;
+    position: absolute;
+    width: 40px;
+}
+.single-promo-box h2 {
+    font-size: 26px;
+    padding-bottom: 15px;
+    position: relative;
+}
+.single-promo-box:nth-child(1) h2::after {
+    background: #de9199 none repeat scroll 0 0;
+}
+.single-promo-box:nth-child(4) h2::after {
+    background: #78b5d1 none repeat scroll 0 0;
+}
+.promo-btn {
+    background: #de9199 none repeat scroll 0 0;
+    border-radius: 40px;
+    color: #fff;
+    display: inline-block;
+    font-weight: 700;
+    padding: 12px 25px;
+    text-transform: uppercase;
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s;
+}
+.single-promo-box:hover .promo-btn {
+    visibility: visible;
+    opacity: 1;
+}
+.single-promo-box:nth-child(4) h2 {
+    color: #434748;
+}
+.single-promo-box:nth-child(4) .promo-icon {
+    color: #78b5d1;
+}
+
+.single-promo-box:nth-child(3) .promo-btn {
+    background: #fff none repeat scroll 0 0;
+    color: #78b5d1;
+}
+.single-promo-box:nth-child(2) .promo-btn {
+    background: #fff none repeat scroll 0 0;
+    color: #de9199;
+}
+.single-promo-box:nth-child(4) .promo-btn {
+    background: #78b5d1 none repeat scroll 0 0;
+}
+
+
+.section-title h3 {
+    color: #78b5d1;
+    font-style: italic;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+.section-title h2 {
+    color: #494a4e;
+    font-size: 40px;
+    margin-bottom: 45px;
+}
+.rightside-contetn h4 {
+    color: #48494d;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.rightside-contetn p {
+    color: #898a8e;
+    line-height: 1.7;
+}
+.rightside-contetn {
+    padding: 80px 65px;
+}
+
+.section-btn .promo-btn {
+    background: #78b5d1 none repeat scroll 0 0;
+    opacity: 1;
+    visibility: visible;
+}
+.section-btn .borderd-btn {
+    border: 2px solid #78b5d1;
+    border-radius: 50px;
+    color: #78b5d1;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 20px;
+    padding: 12px 30px;
+    text-transform: uppercase;
+}
+.section-btn {
+    margin-top: 50px;
+}
