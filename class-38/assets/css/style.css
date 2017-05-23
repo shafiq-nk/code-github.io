@@ -1,0 +1,147 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+.single-slide-item {
+    background-image: url(../images/plate.jpg);
+    background-color: #ddd;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+.slider-img-2 {
+    background-image: url(../images/plate-2.jpg);
+}
+.logo img {
+    float: left;
+    left: 0;
+    max-width: 100px;
+    position: absolute;
+    top: 0;
+}
+.logo {
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 25px;
+    padding-left: 120px;
+    padding-top: 25px;
+    position: relative;
+}
+.logo a {
+    color: #333;
+}
+.logo span {
+    display: block;
+    font-size: 80%;
+    font-style: italic;
+    font-weight: 400;
+}
+.right-content-box {
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 40px;
+    margin-top: 20px;
+    padding-left: 30px;
+    position: relative;
+    text-align: left;
+}
+.right-content-box i.fa {
+    font-size: 20px;
+    left: 0;
+    position: absolute;
+    top: 2px;
+}
+.right-content-box a {
+    color: #333;
+}
+
+.header-area {
+    left: 0;
+    padding: 20px 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+}
+.slide-text {
+    padding: 50px 100px 60px 75px;
+    position: relative;
+    z-index: 1;
+}
+.slide-text::after {
+    background: #fff none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+.slide-text h2 {
+    font-size: 48px;
+    margin-bottom: 35px;
+}
+.slide-text p {
+    font-size: 16px;
+}
+.boxed-btn {
+    background: #f88409 none repeat scroll 0 0;
+    border-radius: 3px;
+    color: #fff;
+    display: inline-block;
+    font-weight: 600;
+    padding: 10px 19px;
+    text-transform: capitalize;
+}
+.slide-text .boxed-btn {
+    margin-top: 30px;
+}
+
+.homepage-slides .owl-nav div {
+    font-size: 50px;
+    left: 50px;
+    margin-top: -30px;
+    position: absolute;
+    top: 50%;
+    opacity: 0;
+    transition: .3s;
+}
+.homepage-slides:hover .owl-nav div {
+    opacity: .5;
+}
+.homepage-slides .owl-nav div.owl-next {
+    left: auto;
+    right: 50px;
+}
