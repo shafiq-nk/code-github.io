@@ -1,0 +1,97 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700,700i|Montserrat:400,700')
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    font-family: 'Droid Serif', serif;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+a:hover { text-decoration: none }
+
+body {
+    background: #ebeaf0 none repeat scroll 0 0;
+    padding: 50px;
+}
+.box-content {
+    background: #76d3da none repeat scroll 0 0;
+    color: #fff;
+    position: relative;
+}
+.img-pos {
+    bottom: 0;
+    position: absolute;
+    right: -30px;
+}
+.slide-text {
+    font-size: 18px;
+    height: 666px;
+    line-height: 22px;
+    max-width: 500px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    padding-top: 70px;
+}
+.slide-text p.top-ticker-text {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.2;
+    opacity: 0.9;
+    padding-bottom: 8px;
+    position: relative;
+    text-transform: uppercase;
+}
+.top-ticker-text::after {
+    background: #fff none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 3px;
+    left: 3px;
+    position: absolute;
+    width: 25px;
+}
+.slide-text h2 {
+    font-size: 65px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-bottom: 70px;
+    margin-top: 60px;
+    text-transform: capitalize;
+}
+.box-btn {
+    background: #f4f551 none repeat scroll 0 0;
+    border-radius: 30px;
+    box-shadow: 0 20px 60px 5px #f4f551;
+    color: #5d5d5d;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 12px 45px;
+    text-transform: uppercase;
+}
+.slide-text .box-btn {
+    margin-top: 35px;
+}
