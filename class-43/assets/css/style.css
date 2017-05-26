@@ -1,0 +1,214 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Mr+De+Haviland|Roboto:300,400,500,700,900');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+/*font-family: 'Mr De Haviland', cursive;
+font-family: 'Roboto', sans-serif;*/
+.welcome-hero-area {
+    background-image: url(../images/food-bg.jpg);
+}
+.hero-logo-area h3 {
+    font-family: 'Mr De Haviland', cursive;
+    text-transform: capitalize;
+}
+
+html, body {
+    height: 100%;
+}
+.welcome-hero-area {
+    background-color: #ddd;
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+.welcome-hero-area::after {
+    background: #333 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+.logo h1 {
+    font-size: 25px;
+    letter-spacing: 3px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+.logo a {
+    color: #fff;
+    display: inline-block;
+    padding-bottom: 10px;
+    position: relative;
+}
+.header-area {
+    left: 0;
+    padding: 18px 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.logo a::after {
+    background: #fff none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width: 97%;
+}
+.mainmenu ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.mainmenu ul li {
+    display: inline-block;
+    margin-left: 35px;
+}
+.mainmenu ul li a {
+    color: #fff;
+    display: block;
+    font-size: 15px;
+    position: relative;
+    text-transform: uppercase;
+}
+.mainmenu ul li a::after {
+    background: #fff none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+.mainmenu {
+    margin: 2px;
+}
+.hero-area-table {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.hero-area-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+}
+.next-to-about {
+    bottom: 30px;
+    color: #fff;
+    font-size: 40px;
+    height: 40px;
+    left: 50%;
+    margin-left: -20px;
+    opacity: 0.5;
+    position: absolute;
+    width: 40px;
+}
+.hero-logo-area h3 {
+    color: #c79b50;
+    font-size: 100px;
+    line-height: 55px;
+    margin: 0;
+}
+.hero-logo-area h2 {
+    color: #fff;
+    font-size: 50px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+.border-area-left-border, .border-area-right-border {
+  background: #fff none repeat scroll 0 0;
+  float: left;
+  height: 2px;
+  margin-top: 5px;
+  width: 37%;
+    position: relative;
+}
+.border-area-left-border {
+  margin-left: 13px;
+  margin-top: 5px;
+}
+.bordered-area {
+    margin: 0 auto;
+    max-width: 350px;
+    overflow: hidden;
+}
+.bordered-area i.fa {
+  color: #c79b50;
+  float: left;
+  font-size: 15px;
+  margin: 0 20px;
+}
+.hero-logo-area p {
+  color: #fff;
+  margin-top: 10px;
+}
+
+.border-area-left-border::before {
+  border-bottom: 4px solid transparent;
+  border-left: 9px solid #fff;
+  border-top: 4px solid transparent;
+  content: "";
+  height: 0;
+  position: absolute;
+  left: -7px;
+  top: -3px;
+  width: 0;
+}
+.border-area-right-border::after {
+  border-bottom: 4px solid transparent;
+  border-right: 9px solid #fff;
+  border-top: 4px solid transparent;
+  content: "";
+  height: 0;
+  position: absolute;
+  right: -7px;
+  top: -3px;
+  width: 0;
+}
+
+
+
+
+
+
+
+
+
