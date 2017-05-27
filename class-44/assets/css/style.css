@@ -1,0 +1,168 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Lato', sans-serif;
+}
+a:hover { text-decoration: none }
+.welcome-area {
+    background-image: url(../images/radio-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+html, body {
+    height: 100%;
+}
+.welcome-area {
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+.welcome-area::after {
+    background: #fff none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+.logo img {
+    max-width: 40px;
+}
+.logo a {
+    color: #ef4144;
+    text-decoration: none;
+}
+.logo h1 {
+    font-size: 18px;
+    font-weight: 800;
+    margin: 0;
+}
+.mainmenu ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.mainmenu ul li {
+    display: inline-block;
+}
+.mainmenu ul li a {
+    border-radius: 50px;
+    color: #333;
+    display: block;
+    padding: 10px 30px;
+    text-transform: uppercase;
+}
+.mainmenu li.bordered a {
+    border: 1px solid;
+    color: #ef4144;
+}
+.logo {
+    margin-top: 2px;
+}
+.header-area {
+    left: 0;
+    padding: 15px 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+}
+.copyright-area {
+    background: #413f3d none repeat scroll 0 0;
+    bottom: 0;
+    font-size: 88%;
+    left: 0;
+    padding: 10px 0;
+    position: absolute;
+    width: 100%;
+    z-index: 9;
+}
+.copyright-area, .copyright-area a {
+    color: #999;
+}
+.copyright-area ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.copyright-area ul li {
+    display: inline-block;
+    padding-left: 30px;
+}
+.hero-area-table {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.hero-area-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+}
+.hero-text {
+    font-size: 20px;
+    font-weight: 300;
+}
+.hero-text h2 {
+    font-size: 50px;
+    font-weight: 800;
+}
+.subscribe-form {
+    font-size: 14px;
+    margin-top: 50px;
+    max-width: 500px;
+}
+.subscribe-form form input[type="email"] {
+    background: #fff none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 5px;
+    font-weight: 400;
+    margin-right: 1%;
+    padding: 14px;
+    width: 61%;
+}
+button[type="submit"] {
+    background: #f95244 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 700;
+    padding: 14px 30px;
+    text-transform: uppercase;
+}
+.social-links a {
+    color: #333;
+    display: inline-block;
+    font-size: 18px;
+    padding-right: 15px;
+    padding-top: 10px;
+}
