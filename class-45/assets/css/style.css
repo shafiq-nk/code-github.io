@@ -1,0 +1,129 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Lato', sans-serif;
+}
+a:hover { text-decoration: none }
+
+.section-padding {
+    padding: 80px 0;
+}
+.single-pricing-box {
+    border: 1px solid #f4f4f4;
+    border-radius: 4px;
+    margin-bottom: 50px;
+    padding: 30px;
+    text-align: center;
+}
+body {
+    color: #5E7080;
+    font-size: 16px;
+    line-height: 1.8;
+}
+a {
+    color: #07a0f6;
+}
+.pricing-amount {
+    color: #5fd7ff;
+    font-size: 60px;
+    font-weight: 300;
+    line-height: 70px;
+    margin-bottom: 0;
+}
+.single-pricing-box ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.single-pricing-box ul li {
+    line-height: 1.5;
+    padding-bottom: 13px;
+}
+.single-pricing-box h4 {
+    color: #5e6f80;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.boxed-btn {
+    background: #00a9f7 none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    margin-top: 17px;
+    padding: 13px 40px;
+    text-transform: capitalize;
+}
+
+.pricing-box-content {
+    border-top: 1px solid #f2f2f2;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+.single-pricing-box h4 {
+    margin-bottom: 40px;
+}
+.single-pricing-box h4 span {
+    color: #6eb03f;
+    display: block;
+    font-size: 80%;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.single-pricing-box.active > h4 {
+    margin-bottom: 25px;
+    margin-top: -15px;
+}
+.single-pricing-box.active {
+    border-radius: 0 0 5px 5px;
+    position: relative;
+    z-index: 1;
+}
+.single-pricing-box.active::before {
+    background: #64bb21 none repeat scroll 0 0;
+    content: "";
+    height: 3px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.single-pricing-box:hover {
+    box-shadow: 0 0 40px #eff3f6;
+}
+.single-pricing-box {
+    transition: all 0.3s ease 0s;
+}
+.boxed-btn:hover {
+    background: #333 none repeat scroll 0 0;
+    color: #fff;
+}
+a {
+    transition: all 0.3s ease 0s;
+}
