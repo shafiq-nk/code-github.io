@@ -1,0 +1,141 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+    .homepage-heght {
+        height: auto;
+    }
+    .slide-content {
+      margin: 170px 0 50px;
+    }
+    .work-area {
+      padding: 50px 0;
+    }
+    .service-area {
+      padding: 50px 0;
+    }
+    .partner-area img {
+      padding: 0 34px;
+    }
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ 
+    .homepage-heght {
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .header-area, .mainmenu {
+      padding: 0;
+      text-align: center;
+    }
+    .slide-content {
+      margin: 130px 0 0 40px;
+    }
+    .work-area {
+      padding: 30px 0;
+    }
+    .single-work {
+      padding: 10px 15px;
+      min-height: 320px;
+    }
+    .single-work::after {
+      top: 20px;
+    }
+    .service-area {
+      padding: 40px 0;
+    }
+    .single-price {
+      margin: -40px 0;
+    }
+    .single-price p.price-size {
+      font-size: 85px;
+    }
+    .testimonal-area {
+      padding: 65px 0 90px;
+    }
+    .partner-area {
+      padding: 50px 0;
+    }
+    .partner-area img {
+      padding: 0 10px;
+    }
+    .footemenu, .footer-area {
+      padding: 10px 0;
+      text-align: center;
+    }
+    .testimonal-content {
+      max-width: 60%;
+    }
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+ 
+    .homepage-heght {
+        height: auto;
+    }
+    .header-area {
+      padding: 10px 0;
+    }
+    .logo, .mainmenu {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .mainmenu ul li {
+      padding: 5px 15px;
+    }
+    .mainmenu ul li a.bordered {
+      padding: 5px 15px;
+    }
+    .slide-content h2 {
+      font-size: 28px;
+    }
+    .slide-content p {
+      margin-bottom: 20px;
+    }
+    .slide-btn {
+      font-size: 13px;
+      padding: 10px 15px;
+      margin-bottom: 15px;
+    }
+    .work-area {
+      padding: 35px 0;
+    }
+    .single-work {
+      margin: 0 10px 20px;
+      padding: 25px 60px;
+    }
+    .service-area {
+      padding: 50px 0;
+    }
+    .single-price {
+      margin: -40px 5px;
+      padding: 20px 10px;
+    }
+    .single-price p.price-size {
+      font-size: 70px;
+    }
+
+    .testimonal-content {
+      max-width: 100%;
+    }
+    .testimonial-area {
+      padding: 15px 0 75px;
+    }
+    .partner-area {
+      padding: 30px 0;
+    }
+    .partner-area img {
+      margin: 0 50px;
+      padding: 10px 25px;
+    }
+    .footemenu {
+      text-align: center;
+    }
+    .footemenu ul li a {
+      padding: 5px 10px;
+    }
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}
