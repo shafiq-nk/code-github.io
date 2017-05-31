@@ -1,0 +1,184 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+html, body {
+    height: 100%;
+}
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+a:hover { text-decoration: none }
+
+.section-padding.gray-bg {
+    background: url(../images/brush.png) no-repeat center center / cover;
+    color: #8c8c8c;
+    position: relative;
+}
+.section-padding.gray-bg:after {
+    background-color: rgba(52, 52, 52, 0.97);
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.section-padding {
+    height: 100%;
+    padding: 80px 0;
+}
+
+.section-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 500px;
+    padding-left: 35px;
+}
+.section-text h2 {
+    color: #fbfbfb;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    text-transform: uppercase;
+}
+.section-text h2::after {
+    background: #ff4e4b none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 2px;
+    position: absolute;
+    width: 15px;
+}
+.section-text p {
+    font-size: 15px;
+    line-height: 32px;
+}
+.borderd-btn {
+    border: 2px solid #ff4f4c;
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 10px;
+    padding: 10px;
+    text-transform: uppercase;
+    width: 150px;
+}
+.borderd-btn i.fa {
+    float: right;
+    font-size: 10px;
+    padding-top: 3px;
+}
+.section-info {
+    position: relative;
+}
+.item-price {
+    background: #ff4f4c none repeat scroll 0 0;
+    color: #fff;
+    height: 260px;
+    padding-top: 56px;
+    position: absolute;
+    right: 145px;
+    text-align: center;
+    width: 200px;
+}
+.item-price p.price-amount {
+    color: #fff;
+    font-size: 42px;
+    opacity: 1;
+}
+.item-price p {
+    line-height: 24px;
+    opacity: 0.6;
+    text-transform: uppercase;
+}
+.absolute-shopping-cart {
+    background: #fff none repeat scroll 0 0;
+    box-shadow: 0 8px 30px 0 #675757;
+    color: #333;
+    display: block;
+    height: 50px;
+    left: -25px;
+    line-height: 50px;
+    position: absolute;
+    top: 30px;
+    width: 50px;
+}
+.section-info img {
+    padding-top: 85px;
+    position: relative;
+    z-index: 1;
+}
+div.owl-carousel owl-item img {
+    width: auto;
+    display: inline-block;
+}
+.featured-tailer-carousel .owl-dots div:nth-child(1) span:before{
+    content: "01";
+}
+.featured-tailer-carousel .owl-dots div:nth-child(2) span:before{
+    content: "02";
+}
+.featured-tailer-carousel .owl-dots div:nth-child(3) span:before{
+    content: "03";
+}
+
+.featured-tailer-carousel .owl-dots div {
+    border-left: 2px solid #575757;
+    padding: 25px 15px;
+}
+.featured-tailer-carousel .owl-dots {
+    position: absolute;
+    right: -50px;
+    top: 23%;
+}
+.featured-tailer-carousel .owl-dots div.active {
+    border-left: 2px solid #ff4f4c;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
