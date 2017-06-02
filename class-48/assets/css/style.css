@@ -1,0 +1,126 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.pricing-tables {
+    overflow: hidden;
+    padding: 30px 20px;
+}
+.single-pricing-box {
+    background: #fff none repeat scroll 0 0;
+    box-shadow: 0 0 10px #f3f3f3;
+    float: left;
+    position: relative;
+    width: 33.3333%;
+    z-index: 1;
+}
+body {
+    color: #75706f;
+    font-size: 17px;
+    line-height: 1.7;
+}
+.section-padding {
+    padding: 100px 0;
+}
+.pricing-heading {
+    background: #f9f9f9 none repeat scroll 0 0;
+    color: #888888;
+    font-size: 17px;
+    padding: 40px;
+}
+.pricing-heading h1 {
+    color: #333333;
+    font-size: 50px;
+    font-weight: 400;
+}
+.pricing-heading h4 {
+    color: #8d8889;
+    font-size: 30px;
+    font-weight: 400;
+}
+.pricing-content {
+    padding: 60px;
+}
+.pricing-content ul {
+    line-height: 35px;
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.price-btn {
+    border: 1px solid #fc103c;
+    border-radius: 50px;
+    color: #fc103c;
+    display: inline-block;
+    font-weight: 600;
+    padding: 10px 25px;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    transition: .3s;
+}
+.active .pricing-heading {
+    background: #fc103c none repeat scroll 0 0;
+    color: #fff;
+    margin-top: -30px;
+    overflow: hidden;
+    position: relative;
+}
+.active .pricing-heading h1, .active .pricing-heading h4 {
+    color: #fff;
+}
+.single-pricing-box.active {
+    margin-left: -0.5%;
+    margin-right: -0.5%;
+    position: relative;
+    width: 34.3333%;
+    z-index: 2;
+}
+
+.active .pricing-content {
+    padding: 73px 60px;
+}
+a.price-btn:hover,
+.active a.price-btn {
+    background: #fc103c none repeat scroll 0 0;
+    color: #fff;
+}
+.active .pricing-heading::after {
+    background: #fff none repeat scroll 0 0;
+    color: #fc103c;
+    content: "Featured";
+    font-size: 14px;
+    position: absolute;
+    right: -31px;
+    top: 17px;
+    transform: rotate(45deg);
+    width: 120px;
+}
+
