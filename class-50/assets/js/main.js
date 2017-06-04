@@ -4,15 +4,13 @@
     jQuery(document).ready(function($){
 
 
-        $(".testimonial-slide").owlCarousel({
-            items: 1,
+        $(".category-carosel").owlCarousel({
+            items: 3,
             nav: false,
             dots: true,
-            autoplay: true,
-            loop: true,
-            stopOnHover: true,
-            touchDrag: false,
-            
+            margin: 20,
+            loop:true,
+            autoplay: true
         });
 
 
