@@ -1,0 +1,131 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+.single-product-box{
+    background-image: url(../images/pic-13.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    height: 600px;
+}
+.box-bg-2{
+    background-image: url(../images/cc.jpg);
+}
+.box-bg-3{
+    background-image: url(../images/pic-k.jpg);
+}
+.box-bg-4{
+    background-image: url(../images/pic-m.jpg);
+}
+.box-bg-5{
+    background-image: url(../images/pic-q.jpg);
+}
+
+.section-padding {
+    padding: 80px 0;
+}
+.section-title {
+    margin-bottom: 55px;
+    text-align: center;
+}
+.section-title h2 {
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.section-title p {
+    color: #787878;
+    font-size: 15px;
+}
+
+.row.no-padding {
+    margin: 0;
+}
+.row.no-padding .col-md-4 {
+    padding: 0;
+}
+.single-product-box.half-size {
+    height: 300px;
+}
+.single-product-box {
+    position: relative;
+}
+.product-box-hover {
+    height: 90%;
+    left: 5%;
+    opacity: 0;
+    position: absolute;
+    top: 5%;
+    transition: all 0.3s ease 0s;
+    visibility: hidden;
+    width: 90%;
+    z-index: 1;
+}
+.product-box-hover::after {
+    background: #000 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+.single-product-box:hover .product-box-hover {
+    opacity: 1;
+    visibility: visible;
+}
+
+.sigle-item-table {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.single-item-tablecell {
+    color: #fff;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.single-item-tablecell h4 {
+    font-weight: 400;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+.larg-img {
+    color: #07b514;
+    margin-bottom: 15px;
+    display: block;
+}
+.larg-img:hover {
+    color: #07b514;
+}
