@@ -1,0 +1,169 @@
+/* Base CSS */
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.maimenu-area {
+    background: #25385b none repeat scroll 0 0;
+}
+.mainmenu ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.mainmenu ul li {
+    display: inline-block;
+    position: relative;
+}
+.mainmenu ul li a {
+    color: #fff;
+    display: block;
+    font-size: 15px;
+    font-weight: 600;
+    opacity: 0.8;
+    padding: 30px 10px;
+    text-transform: uppercase;
+}
+
+.mainmenu li ul {
+    background: #25385b none repeat scroll 0 0;
+    left: 0;
+    position: absolute;
+    top: 150px;
+    width: 200px;
+    z-index: 2;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+.mainmenu li:hover ul {
+    visibility: visible;
+    opacity: 1;
+    top: 80px;
+} 
+.mainmenu li {
+    position: relative;
+}
+.mainmenu li ul li a {
+  border-bottom: 1px solid #fff;
+  padding: 10px;
+  text-transform: capitalize;
+    transition: .3s;
+}
+.mainmenu li ul li:hover > a {
+    padding-left: 30px;
+}
+.mainmenu li ul li:last-child a {
+  border-bottom: 1px solid transparent;
+}
+.mainmenu li ul li {
+    display: block;
+}
+
+.service-box-bg {
+    background-image: url(../images/medical.jpg);
+    background-position: center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.box-bg-2{
+    background-image: url(../images/medical-2.jpg);
+}
+.box-bg-3{
+    background-image: url(../images/medical-3.jpg);
+}
+
+.section-padding {
+    padding: 70px 0;
+}
+.title-text {
+    color: #848484;
+    font-size: 16px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.title-text h2 {
+    color: #333;
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+.title-text h2 span {
+    color: #00c9cf;
+}
+.service-box-bg {
+    border-radius: 5px 5px 0 0;
+    height: 250px;
+    position: relative;
+    z-index: 1;
+}
+.service-box-bg i {
+    background: #25385b none repeat scroll 0 0;
+    border: 4px solid #fff;
+    border-radius: 50%;
+    bottom: -25px;
+    color: #fff;
+    display: block;
+    height: 70px;
+    left: 50%;
+    margin-left: -35px;
+    position: absolute;
+    text-align: center;
+    width: 70px;
+    transition: .3s;
+}
+.service-box-bg i::before {
+    font-size: 38px;
+    line-height: 60px;
+    margin: 0;
+}
+.single-service-box {
+    border: 1px solid #ebebeb;
+    border-radius: 0 0 5px 5px;
+}
+.single-service-box:hover h4 {
+    background-color: #25385B;
+    color: #fff;
+}
+.single-service-box h4 {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+    padding: 40px 20px 35px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: .3s;
+}
+.single-service-box:hover .service-box-bg i {
+    background-color: #00c9cf;
+    border: 4px solid #25385B;
+}
