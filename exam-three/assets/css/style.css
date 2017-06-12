@@ -71,16 +71,13 @@ a:hover { text-decoration: none }
     z-index: 1;
 }
 
-.slide-text {
-    display: table;
-    height: 475px;
-    width: 100%;
+.header-area {
+  left: 0;
+  padding-top: 25px;
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
-.slide-text-tablecell {
-    display: table-cell;
-    vertical-align: middle;
-}
-
 .logo a {
     color: #333;
 }
@@ -91,7 +88,7 @@ a:hover { text-decoration: none }
 }
 .mainmenu ul {
     list-style: outside none none;
-    margin: 45px 0 0;
+    margin: 0;
     padding: 0;
     text-align: right;
 }
@@ -100,24 +97,34 @@ a:hover { text-decoration: none }
     font-size: 18px;
     text-transform: capitalize;
 }
-.logo {
-    margin-top: 40px;
+.hero-area-table {
+    display: table;
+    height: 100%;
+    width: 100%;
 }
-.slide-text-tablecell h2 {
+.hero-area-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.slide-text h2 {
     color: #333;
     font-size: 40px;
     font-weight: 300;
 }
-.slide-text-tablecell p {
+.slide-text p {
     color: #000;
     opacity: 0.5;
 }
 
 .footer-area {
-    border-top: 1px solid #c0c0c0;
-    padding: 20px;
+  border-top: 1px solid #c0c0c0;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+  position: absolute;
+  width: 100%;
 }
-
 .social-links a {
     color: #857983;
     font-size: 20px;
