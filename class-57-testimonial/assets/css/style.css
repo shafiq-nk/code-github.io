@@ -1,0 +1,157 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.section-padding {
+    padding: 70px 0;
+}
+.section-title {
+    margin-bottom: 20px;
+}
+.section-title h2 {
+    font-size: 36px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.testimonial-author img {
+    display: inline-block;
+    margin-top: -30px;
+    max-width: 110px;
+}
+.testimonial-author {
+    padding-bottom: 35px;
+    padding-top: 30px;
+    text-align: center;
+}
+.testimonial-author h3 {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 300;
+    padding-left: 20px;
+    text-align: left;
+    text-transform: uppercase;
+}
+.testimonial-author h3 span {
+    display: inline-block;
+    font-size: 75%;
+    opacity: 0.5;
+    padding-top: 10px;
+    text-transform: none;
+}
+.testimonial-content {
+    color: #888;
+    font-size: 14px;
+    line-height: 1.8;
+    padding: 0 45px;
+    text-align: center;
+}
+.single-testinonial-item {
+    box-shadow: 0 0 10px #f7f7f7;
+    padding: 60px 80px;
+}
+
+.list-author-name img {
+    border-radius: 50%;
+    height: 75px;
+    margin-top: -15px;
+    width: 75px;
+}
+.list-author-name h3 {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 400;
+    max-width: 185px;
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+ul.list-author-name {
+  height: 265px;
+  list-style: outside none none;
+  margin: 50px 0 0;
+  overflow-y: scroll;
+  padding: 0;
+  position: relative;
+}
+.list-author-name a {
+    color: #333;
+}
+.list-author-name h3 span {
+    display: inline-block;
+    font-size: 80%;
+    opacity: 0.7;
+    padding-top: 8px;
+    text-transform: none;
+}
+.list-author-name li {
+    margin-bottom: 15px;
+    padding-top: 15px;
+    opacity: .5;
+    margin-left: 40px;
+}
+.list-author-name li.active {
+    opacity: 1;
+}
+
+.testimonial-right-title {
+    bottom: 175px;
+    color: #ecebeb;
+    font-size: 45px;
+    left: -275px;
+    position: absolute;
+    text-transform: uppercase;
+    transform: rotate(-90deg);
+    width: 450px;
+}
+.testimonial-wrap {
+    margin: 0 70px;
+    position: relative;
+}
+.testimonial-right-title::after {
+    background: #ecebeb none repeat scroll 0 0;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+.testimonial-right-title span {
+    background: #fff none repeat scroll 0 0;
+    padding-right: 15px;
+    position: relative;
+    z-index: 1;
+}
+.ps > div.ps__scrollbar-y-rail {
+  opacity: 1;
+    left: 0;
+}
+
