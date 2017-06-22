@@ -155,3 +155,94 @@ ul.list-author-name {
     left: 0;
 }
 
+/* Gallery area */
+
+.gallery-img {
+    background-position: center center;
+    background-size: cover;
+    height: 300px;
+    padding: 0;
+}
+.img-one {background-image: url(../images/gallery-1.jpg);}
+.img-two {background-image: url(../images/gallery-2.jpg);}
+.img-three {background-image: url(../images/gallery-3.jpg);}
+.img-four {background-image: url(../images/gallery-4.jpg);}
+.img-five {background-image: url(../images/gallery-5.jpg);}
+.img-six {background-image: url(../images/gallery-7.jpg);}
+.img-seven {background-image: url(../images/gallery-6.jpg);}
+.img-eight {background-image: url(../images/gallery-bg.jpg);}
+.img-nine {background-image: url(../images/gallery-4.jpg);}
+
+
+.portfolio-nav {
+  margin-bottom: 35px;
+}
+.portfolio-nav > h2 {
+  color: #15a8ca;
+  display: inline-block;
+  float: right;
+  font-size: 35px;
+  margin: 0;
+  text-transform: uppercase;
+}
+.portfolio-nav ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.portfolio-nav ul li {
+    border: 1px solid;
+    border-radius: 50px;
+    color: #15a8ca;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 10px;
+    padding: 10px 25px;
+    text-transform: capitalize;
+    transition: .3s;
+}
+.portfolio-nav ul li.active, 
+.portfolio-nav ul li:hover {
+    background-color: #15a8ca;
+    border: 1px solid transparent;
+    color: #fff;
+}
+
+.gallery-img a {
+    color: #fff;
+    display: table;
+    font-size: 22px;
+    height: 100%;
+    width: 100%;
+}
+.img-overlay {
+    display: table-cell;
+    opacity: 0;
+    position: relative;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+    vertical-align: middle;
+    visibility: hidden;
+    z-index: 1;
+    transform: scale(.7)
+}
+.img-overlay::after {
+    background-color: #000;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+.gallery-img:hover .img-overlay {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+}
+
+
