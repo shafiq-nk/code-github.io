@@ -1,0 +1,298 @@
+.header-right {
+    background-image: url(img/header-right.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    float: right;
+    width: 60%;
+    position: relative;
+}
+body {
+    margin: 0;
+    font-family: sans-serif; 
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: sans-serif; 
+}
+.header-area {
+    background: #f0efe9 none repeat scroll 0 0;
+}
+.container {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 1170px;
+}
+.header-left {
+    float: left;
+    width: 40%;
+}
+
+.header-right h2 {
+    color: #97b741;
+    font-size: 45px;
+    text-transform: capitalize;
+}
+.header-right h2 span {
+    color: #8b8a84;
+    display: block;
+    font-size: 70%;
+}
+.header-right form {
+    position: absolute;
+    right: 0;
+    text-align: right;
+    top: 60px;
+}
+
+.header-right input {
+    border: medium none;
+    color: #333;
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px 40px 10px 5px;
+    width: 50%;
+}
+.header-right input[type="submit"] {
+    background: #81a917 none repeat scroll 0 0;
+    color: #fff;
+    width: 60px;
+}
+
+/* Main Menu */
+
+
+.mainmenu-area {
+    background: #25385b none repeat scroll 0 0;
+}
+.mainmenu ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.mainmenu ul li {
+    display: inline-block;
+    position: relative;
+}
+.mainmenu ul li a {
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 30px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+}
+.mainmenu ul li.active a,
+.mainmenu ul li:hover a {
+    background: #97b741 none repeat scroll 0 0;
+}
+
+.mainmenu li ul {
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 200px;
+    z-index: 99;
+    opacity: 0;
+    visibility: hidden;
+}
+.mainmenu li:hover ul {
+     opacity: 1;
+    visibility: visible;
+    top: 80px;;
+}
+
+/* Slider area */
+
+.single-slide {
+  background-image: url("img/pture.PNG");
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  justify-content: center;
+}
+.slide-bg-2 {background-image: url(img/pture.PNG);}
+.slide-bg-3 {background-image: url(img/pture.PNG);}
+.slide-bg-4 {background-image: url(img/pture.PNG);}
+.slide-bg-5 {background-image: url(img/pture.PNG);}
+.slide-text {
+    background: rgba(0, 0, 0, 0.4);
+    margin-left: 150px;
+    padding: 45px 20px;
+    width: 40%;
+}
+.slide-text h2 {
+    color: #fee626;
+    font-size: 80px;
+    font-weight: 900;
+    line-height: 80px;
+    margin: 0;
+    text-transform: uppercase;
+}
+.slide-text h2 span {
+    color: #fff;
+    display: block;
+    font-size: 80%;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.slide-text p {
+    color: #fff;
+}
+.slider-btn {
+    border: 2px solid;
+    border-radius: 30px;
+    color: #fee626;
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 15px;
+    padding: 12px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+}
+.slider-btn:hover {
+    background: #fee626 none repeat scroll 0 0;
+    color: #fff;
+}
+
+.homepage-sliders .owl-dots div {
+    background: #bababa none repeat scroll 0 0;
+    border-radius: 50%;
+    display: inline-block;
+    height: 18px;
+    margin: 5px;
+    width: 18px;
+}
+.homepage-sliders .owl-dots div.active {
+    background: #fff;
+}
+.homepage-sliders .owl-dots {
+    bottom: 35px;
+    left: 50%;
+    margin-left: -50px;
+    position: absolute;
+}
+
+
+.gallery-thumb {
+  background: #f6f5f2 none repeat scroll 0 0;
+  padding: 40px 0;
+}
+.thumb-img {
+  background-color: #fff;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 10px 10px 0 0;
+  height: 160px;
+}
+.tumb-bg-1 {background-image: url(img/img-1.jpg);}
+.tumb-bg-2{background-image: url(img/img-2.jpg);}
+.tumb-bg-3 {background-image: url(img/img-3.jpg);}
+.tumb-bg-4 {background-image: url(img/img-4.jpg);}
+.tumb-bg-5 {background-image: url(img/img-5.jpg);}
+.tumb-bg-6 {background-image: url(img/img-6.jpg);}
+.tumb-bg-7 {background-image: url(img/img-7.jpg);}
+.tumb-bg-8 {background-image: url(img/img-8.jpg);}
+.tumb-bg-9 {background-image: url(img/img-9.jpg);}
+.tumb-bg-10 {background-image: url(img/img-10.jpg);}
+.single-thumb p {
+  background: #fff none repeat scroll 0 0;
+  margin: 0;
+  padding: 5px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.gallery-thumb .owl-dots div {
+    background: #bababa none repeat scroll 0 0;
+    border-radius: 50%;
+    display: inline-block;
+    height: 15px;
+    margin: 5px;
+    width: 15px;
+}
+.gallery-thumb .owl-dots div.active {
+    background: #fff;
+}
+.gallery-thumb .owl-dots {
+    top: -50px;
+    right: 0;
+    position: absolute;
+}
+
+/* Widget area */
+
+.widgets-section {
+    background: #f0efe9 none repeat scroll 0 0;
+}
+.widgets {
+    overflow: hidden;
+}
+.single-widget ul{
+    list-style: none;
+}
+.single-widget {
+    float: left;
+    margin-right: 50px;
+    width: calc(33.3333% - 50px);
+}
+.single-widget h3 {
+    border-bottom: 1px solid;
+    color: #367e95;
+    font-size: 30px;
+    padding: 10px 0;
+}
+.single-widget a {
+    color: #367e95;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.single-widget p {
+    color: #a48a83;
+    font-size: 18px;
+}
+.widget-list {
+    color: #367e95;
+    margin: 0;
+    padding: 0;
+}
+.widget-list li a {
+    color: #7e7e7e;
+}
+.widget-list a:hover {
+    color: #367e95;
+}
+.singup-btn, .login-btn {
+    border: 1px solid;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 30px;
+    padding: 5px 15px;
+    transition: all 0.3s ease 0s;
+}
+.singup-btn:hover, .login-btn:hover {
+    background: #367e95 none repeat scroll 0 0;
+    color: #fff;
+}
+
+.widget-list li {
+    margin-top: 5px;
+    padding-left: 20px;
+    position: relative;
+}
+.widget-list li::before {
+    background: #367e95 none repeat scroll 0 0;
+    border-radius: 50%;
+    content: "";
+    height: 12px;
+    left: 0;
+    position: absolute;
+    top: 3px;
+    width: 12px;
+}
+
