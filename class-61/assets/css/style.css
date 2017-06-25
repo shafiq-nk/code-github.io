@@ -1,0 +1,103 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    font-family: 'EB Garamond', serif;
+}
+body {
+    font-family: 'EB Garamond', serif;
+}
+a:hover { text-decoration: none }
+.section-padding {
+    padding: 70px 0;
+}
+.section-padding.map-bg {
+  background: #343850 none repeat scroll 0 0;
+  color: #fff;
+  padding-bottom: 0;
+  margin-bottom: 100px;
+}
+.map-bg h3{
+   color: #CE9636;
+}
+.googleMap {
+  box-shadow: 0 0 8px #343850;
+  height: 520px;
+  margin-bottom: -100px;
+  width: 100%;
+}
+.section-dec p {
+    color: #9395a2;
+    font-size: 135%;
+    line-height: 2;
+    margin-top: 15px;
+}
+.section-title {
+    font-size: 80px;
+    font-weight: 400;
+    margin-bottom: 55px;
+    text-transform: capitalize;
+}
+.section-dec p strong {
+    color: #fff;
+}
+.location-dirction {
+  list-style: outside none none;
+  margin: 0 0 0 60px;
+  padding: 0;
+}
+.location-dirction li h3 {
+    font-size: 75px;
+    font-weight: 400;
+    margin: 0;
+}
+.location-dirction li h3 span {
+    font-size: 30px;
+}
+.location-dirction li p {
+    color: #938D9A;
+    font-size: 17px;
+}
+.location-dirction li {
+    padding-bottom: 20px;
+    position: relative;
+}
+.location-dirction li::after {
+    background: #ddd none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 1px;
+    left: 0;
+    opacity: 0.2;
+    position: absolute;
+    width: 39%;
+}
+.location-dirction li:last-child::after {
+    display: none;
+}
+.location-dirction li:last-child {
+    padding-bottom: 0;
+}
