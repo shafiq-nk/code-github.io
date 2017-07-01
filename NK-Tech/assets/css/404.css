@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:200,300,400,400i,500,500i,600,700,800,900');
+
+body{
+    font-family: 'Exo', sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    color: #404b39;
+}
+a:focus,
+a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+h3{
+    font-size: 22px;
+    font-weight: 700;
+}
+h1,
+h2,
+h3,
+h4{
+    color: #fff;
+    margin-bottom: 15px;
+}
+img{
+    width: 100%;
+}
+html, body{
+    height: 100%;
+}
+.page-wrap-404 {
+  background-color: #ddd;
+  background-image: url("../images/404-bg.jpg");
+  background-position: center center;
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  z-index: 1;
+}
+
+.page-wrap-404::after {
+    background-color: #000;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+.page-wrap-404 h1 {
+    font-size: 110px;
+    margin: 0;
+}
+.page-wrap-404 h4 {
+    font-size: 30px;
+    color: #45941A;
+}
+.search-404 input[type="text"] {
+    border: medium none;
+    color: #45941a;
+    float: left;
+    font-size: 20px;
+    padding: 10px;
+    width: calc(100% - 100px);
+}
+.search-404 {
+  margin: 20px auto;
+  width: 300px;
+    background: #fff;
+}
+.search-404 input[type="submit"] {
+    background: rgba(0, 0, 0, 0) url("../images/search.png") no-repeat scroll center center;
+    border: medium none;
+    padding: 10px;
+    text-indent: -9999px;
+    width: 100px;
+}
+.homepage-btn {
+  border: 1px solid;
+  color: #45941a;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 700;
+  margin-top: 20px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  transition: all 0.3s ease 0s;
+}

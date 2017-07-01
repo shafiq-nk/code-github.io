@@ -1,0 +1,572 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+    .section-padding {
+      padding: 30px 0;
+    }
+    .content-border {
+      margin-right: 45px;
+    }
+    .slide-text h2 {
+      font-size: 35px;
+    }
+    .slide-text p {
+      line-height: 24px;
+    }
+    .s-features {
+      margin: 15px 0;
+    }
+    .latest-work-col-1,
+    .latest-work-col-2 {
+      min-height: 490px;
+    }
+    .team-social a, .footer-social a {
+      padding: 5px 10px;
+    }
+    .details-more a {
+      font-size: 14px;
+      padding: 10px 25px;
+    }
+    
+    /* About page */
+    .about-company .section-title h2 {
+      margin: 5px 0;
+    }
+    .about-company-content p {
+      line-height: 22px;
+      padding: 5px 0;
+    }
+    .about-company-content a.read-more {
+      padding: 4px 10px;
+    }
+    .about-s-content {
+      left: 5%;
+      line-height: 20px;
+      padding: 5px;
+      top: 50%;
+      width: 90%;
+    }
+    .about-company .section-padding {
+      padding: 30px 0 40px;
+    }
+    .team-person-details {
+      margin: 10px 20px;
+    }
+    /* Service page */
+    .s-s-one-single .s-single-details h3 {
+      font-size: 22px;
+    }
+    .service-two-img, 
+    .service-three-img {
+      height: 720px;
+    }
+    
+    /* Portfolio Page */
+    
+    .service-header,
+    .portpolio-header{
+        padding: 5px 0;
+    }
+    .portfolio-content {
+      margin: 70px 0 30px;
+    }
+    .portfolio-two-s-content {
+      top: 160px;
+    }
+    .portfolio-s-details {
+        line-height: 21px;
+        height: 349px;
+    }
+    .portfolio-s-details h3 {
+      margin-top: 0;
+    }
+    .portfolio-four .portfolio-s-details{
+        padding-left: 10px;
+    }
+    .portfolio-five .portfolio-s-details{
+        padding-right: 10px;
+    }
+    .portfolio-s-details .content-border {
+        margin-right: 20px;
+        padding: 10px;
+    }    
+    .video-play-btn {
+      height: 365px;
+    }
+    
+    /* Blog Page */
+    .blog-single-border{
+        margin: 20px 0;
+    }
+    .widget > h4{
+        font-size: 16px;
+    }
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+    .logo h1 {
+      font-size: 16px;
+    }
+     .section-padding {
+      padding: 25px 0;
+    }
+    .right-content,
+    .left-content {
+      text-align: center;
+    }
+    .mainmenu ul li a {
+      font-size: 14px;
+      padding: 28px 12px;
+    }
+    .mainmenu ul li.search-non {
+        display: none;
+    }
+    .is-sticky .mainmenu ul li a {
+      padding: 20px 14px;
+    }
+    .is-sticky .logo h1 {
+      margin: 11px 0;
+    }
+    .content-border {
+      padding: 15px 20px;
+    }
+    .slide-text h2 {
+      font-size: 32px;
+    }
+    .slide-text p {
+      line-height: 24px;
+    }
+    .content-border {
+      margin-right: 30px;
+    }
+    .details-more {
+      margin-top: 20px;
+    }
+    .details-more a {
+      font-size: 14px;
+      padding: 8px 25px;
+    }
+    .qoute-area a {
+      font-size: 18px;
+      padding: 10px 20px;
+    }
+    .qoute-area h4 {
+      font-size: 20px;
+    }
+    .latest-work-col-1, .latest-work-col-2 {
+      min-height: 620px;
+      margin-bottom: 15px;
+    }
+    .footer-bottom {
+      text-align: center;
+    }
+    .footer-widget h5 {
+      font-size: 16px;
+      margin: 20px 0;
+    }
+    .footer-widget img {
+      height: 60px;
+      width: 65px;
+    }
+    .team-social a, .footer-social a {
+      padding: 2px 5px;
+    }
+    
+    /* About */
+    .about-company .section-padding {
+      padding: 25px 0 50px;
+    }
+    .team-person ul li {
+        width: 25%;
+    }
+    .team-person-details {
+      margin: 20px;
+    }
+    .team-person-details h3 {
+      padding-bottom: 0;
+    }
+    
+    .about-s-content > p {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .about-s-content > h4 {
+        font-size: 15px;
+        font-weight: 600;
+        margin: 0;
+    }
+    .about-company-content a.read-more {
+      margin-bottom: 15px;
+    }
+    .margin-l {
+      padding-right: 0;
+    }
+    /* Service page */
+    .s-s-one-single .s-single-details{
+      padding: 0 100px;
+    }
+    .service-two-img, 
+    .service-three-img {
+      height: 720px;
+    }
+    /* Portfolio Page */
+    .portfolio-five .portfolio-s-img,
+    .portfolio-five .portfolio-s-details,
+    .portfolio-four .portfolio-s-img,
+    .portfolio-four .portfolio-s-details{
+        float: none;
+        width: 100%;
+    }
+    .portfolio-two-s-content {
+      top: 128px;
+    }
+    .portfolio-five, .portfolio-four{
+        max-height: inherit;
+    }
+    .content-border {
+        margin-right: 0;
+    }
+    .video-play-btn {
+      height: 265px;
+    }
+
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+     
+    .left-content, 
+    .right-content,
+    .copyright-content,
+    .footer-nav,
+    .footer-social{
+      text-align: center;
+    }
+    .header-top-area i {
+      padding: 0 5px;
+    }
+    .separetor {
+      padding: 4px 0;
+    }
+    .responsive-menu{
+        display: block;
+    }
+    .is-sticky .logo img ,
+    .logo img {
+        margin: 0;
+    }
+    .is-sticky .logo h1,
+    .logo h1 {
+      margin: 4px 0 2px;
+    }
+    .mainmenu-area{
+        position: relative;
+    }
+    .mainmenu{
+        display: none;
+    }
+    .responsive-menu {
+        display: block;
+        margin-top: -20px;
+        position: absolute;
+        right: 10px;
+        top: 50%;
+    }
+    .responsive-menu .slicknav_menu {
+        background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+        margin: 0;
+        padding: 0;
+    }
+    .responsive-menu .slicknav_btn {
+        background-color: #45941a;
+    }
+    .responsive-menu .slicknav_nav {
+        background-color: #45941a;
+        margin-right: 5px;
+        width: 225px;
+    }
+    .responsive-menu .slicknav_nav li{
+        border-top: 1px solid #fff;
+    }
+    .responsive-menu .slicknav_nav ul {
+        margin: 0;
+    }
+
+    .slicknav_nav .slicknav_row, .slicknav_nav a {
+        margin: 1px 0;
+        padding: 0 5px;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+    .slicknav_nav a:hover {
+        background-color: #fff;
+        color: #45941a;
+        border-radius: 0;
+    }
+    .slicknav_nav .slicknav_row:hover, 
+    .slicknav_nav .slicknav_row:hover a{
+      background: #fff none repeat scroll 0 0;
+      border-radius: 0;
+      color: #45941a;
+    }
+    .slicknav_nav ul li ul li a {
+        padding-left: 15px;
+    }
+    .respon-d-non {
+        display: none;
+    }
+    .responsive-menu .slicknav_nav ul li.search-non {
+        display: none;
+    }
+    .slide-text h2 {
+      font-size: 24px;
+      font-weight: 500;
+      margin: 0 0 15px 0;
+    }
+    .slide-text p {
+      line-height: 22px;
+        font-size: 14px
+    }
+    .details-more {
+      margin-top: 20px;
+    }
+    .details-more a {
+      font-size: 12px;
+      margin-right: 12px;
+      padding: 5px 10px;
+    }
+    .qoute-area {
+        padding: 5px 0;
+        text-align: center;
+    }
+    .qoute-area h4 {
+        font-size: 18px;
+        margin: 10px 0;
+    }
+    .qoute-area a {
+        font-size: 18px;
+        margin: 8px 0;
+        padding: 5px 25px;
+    }
+    .section-padding {
+      padding: 20px 0;
+    }
+    .section-title {
+      margin-bottom: 0;
+    }
+    .section-title h2 {
+      font-size: 24px;
+      margin-bottom: 15px;
+    }
+    .section-title h2::before {
+        left: -55px;
+    }
+    .section-title h2::after {
+        right: -55px;
+    }
+    .section-title h2::before,
+    .section-title h2::after {
+        border-bottom: 7px solid transparent;
+        border-right: 45px solid #bb9518;
+        border-top: 7px solid transparent;
+        top: 4px;
+    }
+    .section-title h4 {
+      font-size: 20px;
+      width: 130px;
+    }
+    .s-features .features-details h3 {
+      font-size: 22px;
+      margin: 5px 0;
+    }
+    .work-img {
+      margin-bottom: 10px;
+    }
+    .border-bottom,
+    .border-right,
+    .border-left,
+    .border-non .col-sm-4:last-child{
+        border: none;
+    }
+    .clients .col-sm-4 {
+        border-bottom: 1px solid #bb9518;
+    }
+    .footer-widget {
+      margin-bottom: 25px;
+    }
+    .footer-widget h5 {
+      margin: 5px 0;
+    }
+    .team-social a, .footer-social a {
+      padding: 5px 10px;
+      margin-top: 10px;
+    }
+    
+    /* Pages header */
+    .pages-header {
+      padding: 0;
+      text-align: center;
+    }
+    .pages-header h3 {
+      font-size: 18px;
+      padding: 0;
+      text-align: center;
+      margin: 0 0 10px 0;
+    }
+    
+    /* About Page */ 
+    .team-person ul li {
+        float: left;
+        width: 25%;
+    }
+    .team-person-details {
+      line-height: 22px;
+      margin: 20px;
+    }
+    .margin-l {
+      padding-right: 0;
+    }
+    .about-company .section-title h2 {
+        font-size: 20px;
+    } 
+    .about-company .section-title h2::before {
+        left: -50px;
+    }
+    .about-company .section-title h2::after {
+        right: -50px;
+    }
+    .about-company .section-title h2::before,
+    .about-company .section-title h2::after {
+        border-right: 45px solid #bb9518;
+        top: 1.5px;
+    }
+    .about-company .section-title {
+        padding: 5px;
+    }
+    .about-company-content h4 {
+    color: #4a4141;
+        font-size: 20px;
+    }
+    .about-company-content a.read-more {
+      display: inline-block;
+      font-size: 13px;
+      margin-bottom: 10px;
+      padding: 2px 8px;
+    }
+    .about-s-hight {
+      min-height: 250px;
+    }
+    /* Service Page */
+    .service-two-img, .service-three-img {
+      height: 250px;
+      margin: 20px 5px;
+    }
+    
+    /* Portpolio Page */
+    
+    .portfolio-nav ul li {
+      padding: 2px 12px;
+    }
+    .portfolio-header{
+        padding: 0;
+        text-align: center;
+    }
+    
+    .portfolio-header h2 {
+        font-size: 22px;
+    }
+    .portfolio-header h3 {
+      font-size: 16px;
+      font-weight: 500;
+      margin: 5px 0;
+      padding: 0;
+      text-align: center;
+    }
+    .page-navigation ul.pagination li a {
+      font-size: 16px;
+      padding: 3px 10px;
+    }
+    .page-navigation ul.pagination li a i {
+      font-size: 26px;
+      line-height: 20px;
+    }
+
+    .portfolio-content {
+      margin: 60px 0 15px;
+    }
+    .slide-img {
+      margin: 10px 0 0 0;
+    }
+    
+    .portfolio-one-s-content, .portfolio-two-s-content {
+      line-height: 22px;
+      width: 90%;
+    }
+    .portfolio-two-s-content {
+      top: 87px;
+    }
+    .portfolio-four .portfolio-s-img,
+    .portfolio-four .portfolio-s-details,
+    .portfolio-five .portfolio-s-img,
+    .portfolio-five .portfolio-s-details{
+        width: 100%;
+        float: none;
+    }
+    .portfolio-five,
+    .portfolio-four {
+      max-height: inherit;
+    }
+    .portfolio-s-details {
+      height: 600px;
+    }
+    .portfolio-s-details h3 {
+        font-size: 20px;
+        margin-top: 0;
+    }
+    .portfolio-s-details p {
+      line-height: 22px;
+    }
+    .video-container iframe, .video-container object, .video-container embed {
+      max-height: 221px;
+    }
+    .video-play-btn {
+      height: 170px;
+    }
+        /* Blog page */
+    
+    .blog-post-area h3 {
+      font-size: 25px;
+      padding: 5px 0;
+    }
+    .blog-single-border {
+      margin: 0px 0;
+    }
+    .blog-qoute-post p {
+      font-size: 15px;
+      padding: 0 5px;
+    }
+    /* Single Blog */
+    .header-content h1 {
+      font-size: 40px;
+    }
+    .comment-img {
+      width: 55px;
+    }
+    .comment-text {
+      padding-left: 70px;
+    }
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+    .portfolio-s-details {
+      height: 420px;
+    }
+    .portfolio-two-s-content {
+      top: 200px;
+    }
+    .footer-widget img {
+      height: 70px;
+      width: 70px;
+    }
+    .video-play-btn {
+      height: 265px;
+    }
+}
