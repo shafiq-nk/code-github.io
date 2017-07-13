@@ -1,0 +1,340 @@
+/* Large Layout: 1600px. */
+@media only screen and (min-width: 1600px) and (max-width: 1920px){
+   .single-slide-item img {
+      max-height: 790px;
+    }
+    .homepage-slides .owl-dots {
+      right: 220px;
+    }
+    .about-single {
+      margin: 42px 0;
+    }
+
+}
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+    .main-menu ul li a {
+      font-size: 14px;
+      height: 20px;
+      line-height: 11px;
+      width: 92px;
+    }
+    .is-sticky .logo {
+      margin: 5px 0;
+    }
+    .homepage-slider-wrap {
+        height: auto;
+    }
+    .slider-text-cell {
+      font-size: 90px;
+      line-height: 60px;
+      padding: 160px 0 50px 85px;
+    }
+    .single-slide-item img {
+      margin-right: 100px;
+      max-height: 470px;
+      padding-top: 90px;
+    }
+    .homepage-slides .owl-dots {
+      right: 20px;
+    }
+    
+    .about-details {
+      padding: 40px 0 40px 60px;
+    }
+    .about-single > p {
+      padding-right: 70px;
+    }
+    .weekly-schedule {
+      margin-left: 10px;
+    }
+    .weekly-schedule > li > a {
+      padding: 12px 25px;
+    }
+    .instructor-area .title-text > h2::before,
+    .instructor-area .title-text > h2::after,
+    .feature-classes .title-text > h2::before,
+    .feature-classes .title-text > h2::after {
+      width: 32%;
+    }
+    .scedule-time h4 {
+      padding-top: 5px;
+    }
+    .portfolio-nav ul li {
+      margin-right: 5px;
+      padding: 5px 15px;
+    }
+    .video-play-btn {
+      height: 340px;
+    }
+    .widget ul.thumbs li {
+      width: 65px;
+    }
+    .section-padding {
+      padding: 50px 0;
+    }
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .section-padding {
+      padding: 45px 0;
+    }
+    .is-sticky .logo {
+      margin: 3px 0;
+    }
+    .is-sticky .logo h2 {
+      margin: 0;
+    }
+    .logo {
+      margin: 10px 0;
+    }
+    .main-menu ul li a {
+      font-size: 11px;
+      height: 0;
+      line-height: 4px;
+      width: 70px;
+    }
+    .logo h2 {
+      font-size: 15px;
+      margin: 13px 0;
+      padding: 6px 12px;
+    }
+    .homepage-slider-wrap {
+        height: auto;
+    }    
+    .slider-text-cell {
+      font-size: 65px;
+      line-height: 50px;
+      padding: 160px 0 50px 20px;
+    }
+    .single-slide-item img {
+      margin-right: 100px;
+      max-height: 420px;
+      padding-top: 90px;
+    }
+    .homepage-slides .owl-dots {
+      right: 15px;
+    }
+    .instructor-area .title-text > h2::before,
+    .instructor-area .title-text > h2::after,
+    .feature-classes .title-text > h2::before,
+    .feature-classes .title-text > h2::after {
+      width: 27%;
+    }
+    .weekly-schedule > li > a {
+      padding: 5px 10px;
+    }
+    .single-price {
+      margin: 0;
+    }
+    .price-img {
+      height: 170px;
+    }
+    .price-content {
+      padding: 0 10px;
+    }
+    .price-timing {
+      margin: 0 15px 0;
+    }
+    .price-btn {
+      font-size: 11px;
+      padding: 3px 10px;
+    }
+    .scedule-img {
+      height: 130px;
+    }
+    .scedule-time > p {
+      line-height: 20px;
+      font-size: 13px;
+    }
+    .scedule-time h4 {
+      font-size: 15px;
+      padding-top: 14px;
+    }
+    .portfolio-nav ul li {
+      font-size: 15px;
+      margin-right: 4px;
+      padding: 3px 10px;
+    }
+    .video-play-btn {
+      height: 400px;
+    }
+    .map-area {
+      margin-bottom: 25px;
+    }
+    .footer-social a {
+      margin: 0 1px;
+    }
+    .copyright-content p {
+      font-size: 12px;
+    }
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px){
+    .section-padding {
+      padding: 30px 0;
+    }
+    .main-menu {
+        display: none;
+    }
+    .logo {
+      display: inline-block;
+      margin: 5px 0;
+    }
+    .responsive-menu {
+      display: inline-block;
+      right: 0;
+      position: absolute;
+    }
+    .is-sticky .header-top {
+      padding: 0;
+    }
+    .is-sticky .logo {
+      margin: 5px 0;
+    }
+    .single-slide-item img {
+      margin-right: 10px;
+      max-height: 350px;
+      padding-top: 0;
+      right: 0;
+      width: 450px;
+    }
+    .slider-text-cell {
+      font-size: 30px;
+      line-height: 20px;
+      padding-left: 0;
+      padding-top: 50px;
+    }
+    .homepage-slides .owl-dots {
+      right: 10px;
+    }
+    .homepage-slides .owl-dots div {
+      height: 12px;
+      margin: 12px 5px;
+      width: 12px;
+    }
+    .about-big-img {
+      height: 455px;
+    }
+    .about-big-img p {
+      font-size: 40px;
+      line-height: 20px;
+    }
+    .about-big-img::before,
+    .about-big-img::after {
+        display: none;
+    }
+    .about-details {
+      padding: 15px 25px;
+      text-align: center;
+    }
+    .about-single > p {
+      padding: 0;
+    }
+    .about-single i {
+        float: none;
+        line-height: 0;
+        margin: 0;
+        display: inline-block;
+        height: 0;
+        margin-top: 25px;
+    }
+    .title-text h2 {
+      font-size: 25px;
+    }
+    .instructor-area .title-text h2::before,
+    .instructor-area .title-text h2::after,
+    .feature-classes .title-text h2::before,
+    .feature-classes .title-text h2::after {
+      display: none;
+    }
+    .instructor-slide .owl-nav div,
+    .feature-slide .owl-nav div {
+      top: -80px;
+      width: 25px;
+    }
+    .instructor-slide .owl-nav div {
+      top: -70px;
+    }
+    .weekly-schedule li {
+      display: block;
+      width: 100%;
+    }
+    .weekly-schedule > li > a {
+      border-radius: 0;
+      padding: 2px 10px;
+      margin: 1px;
+    }
+    .instructor-img {
+      height: 130px;
+    }
+    .instc-social-links {
+      margin-top: 0;
+    }
+    .portfolio-nav ul {
+      text-align: center;
+    }
+    .portfolio-nav ul li {
+      border-radius: 10px;
+      font-size: 14px;
+      margin: 3px 2px;
+      padding: 2px 10px;
+    }
+    .video-play-btn {
+      height: 170px;
+    }
+    .googleMap {
+      height: 250px;
+      margin: 20px 0;
+    }
+    .footer-bottom {
+      text-align: center;
+    }
+    .footer-social {
+      margin-top: 5px;
+      text-align: center;
+    }
+
+}
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px){
+    .slider-text-cell {
+      font-size: 50px;
+      line-height: 30px;
+      padding-left: 0;
+      padding-top: 0;
+    }
+    .single-slide-item img {
+      max-height: 490px;
+    }
+    .about-big-img {
+      height: 560px;
+    }
+    .about-big-img p {
+      font-size: 60px;
+      line-height: 38px;
+    }
+    .feature-classes-bg {
+      height: 350px;
+    }
+    .scedule-img {
+      height: 300px;
+    }
+    .instructor-img {
+      height: 200px;
+    }
+    .price-img {
+      height: 335px;
+    }
+    .portfolio-nav > h2 {
+      display: block;
+      float: none;
+      text-align: center;
+    }
+    .video-play-btn {
+      height: 265px;
+    }
+}
