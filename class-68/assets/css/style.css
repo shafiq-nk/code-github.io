@@ -1,0 +1,256 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    font-family: 'EB Garamond', serif;
+}
+body {
+    font-family: 'EB Garamond', serif;
+}
+a:hover { text-decoration: none }
+.section-padding {
+    padding: 70px 0;
+}
+.section-padding.map-bg {
+  background: #343850 none repeat scroll 0 0;
+  color: #fff;
+  padding-bottom: 0;
+  margin-bottom: 100px;
+}
+.map-bg h3{
+   color: #CE9636;
+}
+.googleMap {
+  box-shadow: 0 0 8px #343850;
+  height: 520px;
+  margin-bottom: -100px;
+  width: 100%;
+}
+.section-dec p {
+    color: #9395a2;
+    font-size: 135%;
+    line-height: 2;
+    margin-top: 15px;
+}
+.section-title {
+    font-size: 80px;
+    font-weight: 400;
+    margin-bottom: 55px;
+    text-transform: capitalize;
+}
+.section-dec p strong {
+    color: #fff;
+}
+.location-dirction {
+  list-style: outside none none;
+  margin: 0 0 0 60px;
+  padding: 0;
+}
+.location-dirction li h3 {
+    font-size: 75px;
+    font-weight: 400;
+    margin: 0;
+}
+.location-dirction li h3 span {
+    font-size: 30px;
+}
+.location-dirction li p {
+    color: #938D9A;
+    font-size: 17px;
+}
+.location-dirction li {
+    padding-bottom: 20px;
+    position: relative;
+}
+.location-dirction li::after {
+    background: #ddd none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 1px;
+    left: 0;
+    opacity: 0.2;
+    position: absolute;
+    width: 39%;
+}
+.location-dirction li:last-child::after {
+    display: none;
+}
+.location-dirction li:last-child {
+    padding-bottom: 0;
+}
+
+/* Main menu area */
+
+.mainmenu-area {
+  background: #343850;
+}
+.logo h1 {
+  color: #fff;
+  font-size: 25px;
+  border: 3px solid;
+  display: inline-block;
+  padding: 5px 10px 10px 10px;
+  margin: 0;
+}
+.logo {
+  margin: 20px 0;
+}
+.main-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: right;
+}
+.main-menu ul li {
+  display: inline-block;
+    position: relative;
+}
+.main-menu ul li a {
+  display: block;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #27C5E9;
+  padding: 32px 20px;
+}
+
+/* Dorp down menu */
+
+
+.main-menu li ul {
+    background: #27c5e9 none repeat scroll 0 0;
+    box-shadow: 0 0 4px #999db5;
+    left: 0;
+    opacity: 0;
+    padding: 10px;
+    position: absolute;
+    text-align: left;
+    top: 100px;
+    transition: all 0.3s ease 0s;
+    visibility: hidden;
+    width: 250px;
+    z-index: 1;
+}
+.main-menu li:hover ul {
+    opacity: 1;
+    top: 86px;
+    visibility: visible;
+}
+.main-menu li ul li a {
+    color: #fff;
+}
+.main-menu li ul li a {
+    padding: 5px 10px;
+    transition: .3s;
+}
+.main-menu li ul li {
+    display: block;
+}
+.main-menu ul li:hover a {
+    color: #fff;
+}
+.main-menu li:hover li:hover a {
+    background: #fff none repeat scroll 0 0;
+    color: #27c5e9;
+}
+/* Mega Menu */
+
+.main-menu li.mege-menu {
+    position: static;
+}
+.mega-menu-wrapper {
+    background: #27c5e9 none repeat scroll 0 0;
+    box-shadow: 0 0 4px #999db5;
+    left: 0;
+    opacity: 0;
+    padding: 20px;
+    position: absolute;
+    visibility: hidden;
+    width: 100%;
+    z-index: -1;
+    transition: .3s;
+    top: 100px;
+}
+.main-menu li.mege-menu ul {
+    box-shadow: none;
+    left: auto;
+    opacity: 1;
+    padding: 0;
+    position: relative;
+    top: auto;
+    visibility: visible;
+    width: auto;
+}
+.main-menu li.mege-menu:hover .mega-menu-wrapper {
+    opacity: 1;
+    visibility: visible;
+    z-index: 99;
+    top: 86px;
+}
+.menu-cta {
+    font-size: 16px;
+    text-align: center;
+}
+.menu-cta .boxed-btn {
+    background: #343850 none repeat scroll 0 0;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 12px;
+    padding: 7px;
+    text-transform: uppercase;
+    transition: .3s;
+}
+.menu-cta .boxed-btn:hover {
+    background: #fff;
+    color: #343850;
+}
+.border {
+    border-top: 1px solid #fff;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+.single-product {
+    background-image: url(../images/product-1.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.product-bg-2 {
+    background-image: url(../images/product-2.jpg);
+}
+.product-bg-3 {
+    background-image: url(../images/product-3.jpg);
+}
+.border .s-p-hover {
+    padding: 0;
+}
+
+
+
+
