@@ -1,0 +1,91 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+.contact-wrapper-bg {
+    background-image: url(../images/bg-img.jpg);
+}
+.section-padding {
+    padding: 70px 0;
+}
+.contact-wrapper {
+    color: #fff;
+    padding: 80px;
+    position: relative;
+}
+.contact-wrapper-bg {
+    background-position: center center;
+    background-size: cover;
+    content: "";
+    height: 77%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+.contact-wrapper .row {
+    position: relative;
+    z-index: 2;
+}
+.contact-wrapper-bg::after {
+    background: #000 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.boxed-form {
+    background: #fff none repeat scroll 0 0;
+    box-shadow: 0 0 5px #4e4e4e;
+    color: #333;
+    margin-left: 100px;
+    padding: 50px;
+}
+.boxed-form input, .boxed-form textarea {
+    background: #f3f3f3 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 3px;
+    padding: 10px;
+    width: 100%;
+}
+.boxed-form h2 {
+    text-transform: capitalize;
+}
+.boxed-form input[type="submit"] {
+    background: #e93baf none repeat scroll 0 0;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
