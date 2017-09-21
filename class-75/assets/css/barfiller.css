@@ -1,0 +1,37 @@
+body {
+    font-family: Arial;
+    background:#eee;
+}
+
+.barfiller {
+  background: #333 none repeat scroll 0 0;
+  height: 15px;
+  margin-bottom: 20px;
+  position: relative;
+  width: 100%;
+}
+
+.barfiller .fill {
+    display:block;
+    position:relative;
+    width:0px;
+    height:100%;
+    background:#333;
+    z-index:1;
+}
+
+.barfiller .tipWrap {
+    display:none;
+}
+
+.barfiller .tip {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+  left: auto !important;
+  margin-top: -30px;
+  padding: 2px 4px;
+  position: absolute;
+  right: 0;
+  z-index: 2;
+}
