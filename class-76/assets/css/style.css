@@ -1,0 +1,129 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.round-bg {
+    position: relative;
+}
+.round-bg:after {
+    background-image: url(../images/banner.jpg);
+}
+
+
+.section-padding.round-bg {
+    position: relative;
+    z-index: 1;
+}
+.section-padding.round-bg::after {
+    background-position: center center;
+    background-size: contain;
+    border-radius: 50%;
+    content: "";
+    height: 450px;
+    left: 50%;
+    margin-left: -225px;
+    margin-top: -225px;
+    position: absolute;
+    top: 50%;
+    width: 450px;
+    z-index: -1;
+}
+.section-padding {
+    padding: 100px 0;
+}
+.single-feature-item {
+    margin: 20px 30px 20px 85px;
+    padding-bottom: 30px;
+    padding-right: 170px;
+    padding-top: 30px;
+    position: relative;
+    text-align: right;
+    z-index: 1;
+}
+.feature-icon {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 50%;
+    height: 150px;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    transition: all 0.3s ease 0s;
+    width: 150px;
+    z-index: -1;
+}
+.feature-icon i {
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    box-shadow: 0 0 15px #ddd;
+    color: #666666;
+    display: block;
+    font-size: 60px;
+    height: 100%;
+    line-height: 120px;
+    width: 100%;
+}
+.single-feature-item h2 {
+    font-size: 23px;
+    font-weight: 300;
+}
+.left-icon .feature-icon {
+    left: 0;
+    right: auto;
+}
+.single-feature-item.left-icon {
+    margin-left: 0;
+    margin-right: 85px;
+    padding-left: 170px;
+    padding-right: 0;
+    text-align: left;
+}
+.single-feature-item.feature-padding-left {
+    margin-left: 0;
+    margin-right: 120px;
+}
+.single-feature-item.feture-padding.left-icon {
+    margin-left: 120px;
+    margin-right: 0;
+}
+.single-feature-item:hover .feature-icon {
+    box-shadow: 0 0 20px #838383;
+}
+
+
+
+
+
+
+
+
+
