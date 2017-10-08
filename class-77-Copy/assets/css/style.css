@@ -1,0 +1,88 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.feature-1 .feature-bg{background-image: url(../images/1.jpg);}
+.feature-2 .feature-bg{background-image: url(../images/2.png);}
+.feature-3 .feature-bg{background-image: url(../images/3.jpg);}
+.feature-4 .feature-bg{background-image: url(../images/4.jpg);}
+
+.section-padding {
+    padding: 70px 0;
+}
+.single-feature-item {
+    position: relative;
+    z-index: 1;
+}
+.feature-bg {
+    background-position: center center;
+    background-size: cover;
+    bottom: -50px;
+    content: "";
+    height: 100%;
+    left: 25%;
+    position: absolute;
+    width: 50%;
+}
+.single-f-item-text {
+    background: #fff none repeat scroll 0 0;
+    border-bottom: 3px solid #ff6939;
+    box-shadow: 0 0 10px #ddd;
+    padding: 40px 40px 40px 120px;
+    position: relative;
+}
+.feature-nm {
+    font-size: 50px;
+    left: 30px;
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+.feature-nm::after {
+    background: #333 none repeat scroll 0 0;
+    content: "";
+    height: 70px;
+    left: 40px;
+    position: absolute;
+    top: 15px;
+    transform: rotate(40deg);
+    width: 1px;
+}
+.feature-4 .single-f-item-text {
+    border-color: #FDBB5A;
+}
+.feature-3 .single-f-item-text {
+    border-color: #B775F9;
+}
+.feature-2 .single-f-item-text {
+    border-color: #21b392;
+}
