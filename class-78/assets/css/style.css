@@ -1,0 +1,108 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Condiment|Noticia+Text:400,400i,700,700i');
+/*font-family: 'Noticia Text', serif;
+font-family: 'Condiment', cursive;*/
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+.section-padding {
+    padding: 70px 0;
+}
+.singe-food-bg {
+    background-position: center center;
+    background-size: cover;
+    height: 380px;
+}
+.food-bg-1 {background-image: url(../images/1.jpg);}
+.food-bg-2 {background-image: url(../images/2.jpg);}
+.food-bg-3 {background-image: url(../images/3.jpg);}
+.food-content h2 {
+    font-family: 'Condiment', cursive;
+}
+
+.singe-food-bg {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.food-content {
+    background-color: #f3f4f4;
+    border-top: 4px solid #d19735;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: -85px;
+    padding: 40px;
+    text-align: center;
+    transition: all 0.4s ease 0s;
+}
+.food-content h3 {
+    color: #d19735;
+    font-size: 28px;
+    font-weight: 300;
+    text-transform: uppercase;
+    transition: all 0.4s ease 0s;
+}
+.food-price {
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.food-price span {
+    font-size: 40px;
+}
+.food-btn {
+    border: 1px solid #d19735;
+    color: #d19735;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 20px;
+    padding: 10px 18px;
+    text-transform: uppercase;
+    transition: all 0.4s ease 0s;
+}
+.single-food-box .active,
+.single-food-box:hover .food-content {
+    background: #d19735 none repeat scroll 0 0;
+    color: #fff;
+}
+.single-food-box .active h3,
+.single-food-box:hover .food-content h3 {
+    color: #fff;
+}
+.single-food-box .active .food-btn,
+.single-food-box:hover .food-btn {
+    color: #fff;
+    border-color: #fff;
+}
+.single-food-box:hover .food-btn:hover {
+    color: #d19735;
+    background-color: #fff;
+}
+
+
