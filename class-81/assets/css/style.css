@@ -1,0 +1,102 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.about-section {
+  padding: 70px 0;
+}
+.section-title {
+  margin-bottom: 50px;
+}
+.section-title h2 {
+  text-transform: uppercase;
+}
+.section-title p {
+  font-size: 16px;
+}
+.section-img img {
+  width: 70%;
+}
+.about-text {
+  border: 7px solid #ddd;
+  position: relative;
+  height: 250px;
+  padding: 30px;
+  width: 445px;
+  margin-top: -130px;
+  background-color: #fff;
+}
+.social-icon a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  background: #ddd;
+  text-align: center;
+  border-radius: 50%;
+  margin: 4px 0;
+  transition: .4s;
+}
+.social-icon {
+  width: 40px;
+  position: absolute;
+  display: table;
+  height: 100%;
+  right: -24px;
+  top: 0;
+}
+.social-icon-center {
+  display: table-cell;
+  vertical-align: middle;
+}
+.about-text h3 {
+  text-align: center;
+}
+.about-text p {
+  font-size: 16px;
+}
+.section-img {
+  text-align: right;
+}
+.right-side .section-img {
+  text-align: left;
+}
+.right-side .social-icon {
+  right: auto;
+  left: -24px;
+}
+.right-side .about-text {
+  float: right;
+}
+.social-icon a:hover {
+  background-color: #337ab7;
+  color: #fff;
+}
