@@ -1,0 +1,110 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+.testimonial-author-bg {
+    background-image: url(../images/img.jpg);
+}
+.caruosel-testimonial {
+    padding: 80px 0;
+}
+.testimonial-wrapper {
+  position: relative;
+}
+.testimonial-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 72px;
+  padding-top: 60px;
+  z-index: 11;
+}
+.testimonial-title span {
+  color: #fff;
+}
+.testimonial-text {
+  font-size: 16px;
+  line-height: 1.9;
+  padding-top: 150px;
+  max-width: 40%;
+}
+.testimonial-author i.fa {
+  font-size: 24px;
+  color: yellowgreen;
+}
+.testimonial-author h3 {
+  font-size: 22px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.testimonial-author-bg {
+	position: absolute;
+	right: -6%;
+	top: 0;
+	height: 100%;
+	width: 60%;
+	background-size: cover;
+	background-position: center top;
+}
+.testimonial-author {
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+.testimonial-carousel.owl-carousel {
+	width: 105%;
+}
+.testimonial-item {
+	overflow: hidden;
+	position: relative;
+}
+
+.testimonial-carousel .owl-nav div {
+  height: 70px;
+  width: 70px;
+  display: inline-block;
+  text-align: center;
+  line-height: 70px;
+  color: #fff;
+  font-size: 18px;
+}
+.testimonial-carousel .owl-nav div:nth-child(1) {
+  background-color: yellowgreen;
+}
+.testimonial-carousel .owl-nav {
+	text-align: center;
+	padding-right: 8%;
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+}
+.testimonial-carousel .owl-nav div:nth-child(2) {
+  background-color: #fff;
+  color: yellowgreen;
+}
