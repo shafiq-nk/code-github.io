@@ -1,0 +1,110 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.71);
+}
+a:hover { text-decoration: none }
+.special-bg-1 {
+    background-image: url(../images/bg-1.jpg);
+}
+.special-bg-2{
+    background-image: url(../images/bg-2.jpg);
+}
+
+.sepcial-section {
+  padding: 70px 0;
+}
+.special-bg {
+  height: 500px;
+  position: relative;
+  margin-bottom: 100px;
+  margin-left: -170px;
+}
+.special-inner-bg {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+}
+.special-bg:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #F1F1F1;
+  top: 25px;
+  right: 25px;
+  z-index: -1;
+}
+.special-bg:before {
+  position: absolute;
+  right: 30%;
+  bottom: -55px;
+  width: 2px;
+  height: 120px;
+  content: "";
+  background: #CB9F60;
+}
+.special-title {
+  background-color: #fff;
+  margin-left: -215px;
+  position: relative;
+  z-index: 3;
+  padding: 40px 50px;
+  margin-top: 60px;
+  font-size: 64px;
+  padding-right: 0;
+}
+.more-btn {
+  color: #333;
+  position: relative;
+}
+.more-btn:after {
+  position: absolute;
+  content: "";
+  background-color: #CB9F60;
+  width: 100%;
+  height: 2px;
+  bottom: -6px;
+  left: 0;
+}
+.special-right .special-bg {
+  margin-right: -170px;
+  margin-left: auto;
+}
+.special-right .special-bg:after {
+  right: -25px;
+  left: auto;
+}
+.special-right .special-title {
+  margin-right: -215px;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+}
