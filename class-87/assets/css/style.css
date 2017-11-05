@@ -1,0 +1,110 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+html,body {
+    height: 100%;
+}
+a:hover { text-decoration: none }
+.slider-bg-1{
+    background-image: url(../images/bg-1.jpg);
+}
+.slider-bg-2{
+    background-image: url(../images/bg-2.jpg);
+}
+.slider-bg-3{
+    background-image: url(../images/bg-1.jpg);
+}
+.homepage-sliders, .homepage-sliders div {
+	height: 100%;
+}
+.homepage-sliders div.owl-controls,
+.homepage-sliders div.owl-dots,
+.homepage-sliders div.owl-dots div,
+.homepage-sliders .owl-nav div,
+.homepage-sliders .owl-nav ,
+.homepage-sliders div.sleder-centerd,
+.homepage-sliders div.sleder-centerd div{
+	height: auto;
+}
+.home-slider {
+  height: 100%;
+  width: 100%;
+  display: table;
+  background-position: center bottom;
+  background-size: cover;
+  font-size: 16px;
+}
+.homepage-sliders .owl-nav div {
+	position: absolute;
+	top: 50%;
+	left: 50px;
+	font-size: 50px;
+	line-height: 60px;
+	margin-top: -30px;
+}
+.homepage-sliders .owl-nav div.owl-next{
+    right: 50px;
+    left: auto;
+}
+.sleder-centerd {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+.boxed-btn {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  display: inline-block;
+  padding: 12px 40px;
+  background-color: #D8085E;
+  color: #fff;
+  border-radius: 3px;
+}
+.home-slider h1 {
+  font-size: 70px;
+}
+
+.homepage-sliders .owl-dots img {
+  width: 120px;
+  height: 100px;
+  border-radius: 5px;
+}
+.homepage-sliders .owl-dots div {
+  display: inline-block;
+  margin-left: 12px;
+  border: 2px solid #909090;
+    opacity: .5;
+}
+.homepage-sliders .owl-dots div.active {
+    opacity: 1;
+}
+.homepage-sliders .owl-dots {
+  position: absolute;
+  bottom: 0;
+  right: 15%;
+}
